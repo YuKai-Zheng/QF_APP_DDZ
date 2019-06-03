@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\提示弹窗\toolTips</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\提示弹窗\toolTips\Resources</Resources>
+  <Name>toolTips</Name>
+  <JsonFileName>toolTips.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\提示弹窗\toolTips\Json</JsonFolder>
+  <JsonList>
+    <string>toolTips.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\提示弹窗\toolTips\toolTips.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

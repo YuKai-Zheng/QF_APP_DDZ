@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>G:\xiaoqiang\texas_cocos\cocos_ui\cnui\聊天动画\NewAnimation9</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>G:\xiaoqiang\texas_cocos\cocos_ui\cnui\聊天动画\NewAnimation9\Resources</Resources>
+  <Name>NewAnimation9</Name>
+  <JsonFileName>NewAnimation9.json</JsonFileName>
+  <JsonFolder>G:\xiaoqiang\texas_cocos\cocos_ui\cnui\聊天动画\NewAnimation9\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>G:\xiaoqiang\texas_cocos\cocos_ui\cnui\聊天动画\NewAnimation9\NewAnimation9.xml.animation</filePath>
+  <ProjectType>AnimationProject</ProjectType>
+  <ResRelativePath />
+  <ResourceFileList />
+  <bBatchImage>false</bBatchImage>
+</AnimationProject>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\Texas\ddz_app_client\cocos_ui\cnui\gameTaskView\gameTaskView</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\Texas\ddz_app_client\cocos_ui\cnui\gameTaskView\gameTaskView\Resources</Resources>
+  <Name>gameTaskView</Name>
+  <JsonFileName>gameTaskView.json</JsonFileName>
+  <JsonFolder>F:\Texas\ddz_app_client\cocos_ui\cnui\gameTaskView\gameTaskView\Json</JsonFolder>
+  <JsonList>
+    <string>gameTaskView.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\Texas\ddz_app_client\cocos_ui\cnui\gameTaskView\gameTaskView\gameTaskView.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>gameTaskView/gameTask_img_title.png</string>
+    <string>gameTaskView/gameTask_img_bg.png</string>
+    <string>gameTaskView/gameTask_img_btns_bottom.png</string>
+    <string>global/global_touming_bg.png</string>
+    <string>gameTaskView/gameTask_btn_room.png</string>
+    <string>gameTaskView/gameTask_img_btn_title_1_1.png</string>
+    <string>gameTaskView/gameTask_img_btn_title_2_1.png</string>
+    <string>gameTaskView/gameTask_img_btn_title_3_1.png</string>
+    <string>gameTaskView/gameTask_img_btn_title_4_1.png</string>
+    <string>gameTaskView/gameTask_btn_close.png</string>
+    <string>gameTaskView/gameTask_img_progressbar_bg.png</string>
+    <string>gameTaskView/gameTask_img_progressbar.png</string>
+    <string>gameTaskView/gameTask_img_panel_1.png</string>
+    <string>gameTaskView/gameTask_img_panel_light_1.png</string>
+    <string>gameTaskView/gameTask_img_gold_2.png</string>
+    <string>gameTaskView/gameTask_btn_reward.png</string>
+    <string>gameTaskView/gameTask_img_desc_bg.png</string>
+    <string>gameTaskView/gameTask_img_mask.png</string>
+    <string>gameTaskView/gameTask_img_panel_2.png</string>
+    <string>gameTaskView/gameTask_img_panel_light_2.png</string>
+    <string>gameTaskView/gameTask_img_ticket_1.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>gameTaskView.json</CurrentUIJson>
+</UIProject>

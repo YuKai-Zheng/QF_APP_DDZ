@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\道具包\Daoju</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\道具包\Daoju\Resources</Resources>
+  <Name>Daoju</Name>
+  <JsonFileName>Daoju.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\道具包\Daoju\Json</JsonFolder>
+  <JsonList>
+    <string>Daoju_1.json</string>
+    <string>Daoju_detail.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\道具包\Daoju\Daoju.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/normaldibg.png</string>
+    <string>global/closebtn.png</string>
+    <string>daoju/sepLine.png</string>
+    <string>Focas/fk_loading.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>Daoju_detail.json</CurrentUIJson>
+</UIProject>

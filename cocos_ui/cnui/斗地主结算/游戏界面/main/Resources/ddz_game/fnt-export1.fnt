@@ -1,0 +1,23 @@
+info face="fnt-export1" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=120 base=26 scaleW=512 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="fnt-export1.png"
+chars count=17
+char id=19981 x=116 y=345 width=114 height=110 xoffset=0 yoffset=10 xadvance=116 page=0 chnl=0 letter="不"
+char id=21483 x=231 y=345 width=108 height=115 xoffset=0 yoffset=5 xadvance=110 page=0 chnl=0 letter="叫"
+char id=20998 x=0 y=0 width=116 height=115 xoffset=0 yoffset=4 xadvance=118 page=0 chnl=0 letter="分"
+char id=25250 x=0 y=348 width=115 height=114 xoffset=0 yoffset=5 xadvance=117 page=0 chnl=0 letter="抢"
+char id=22320 x=116 y=232 width=115 height=112 xoffset=0 yoffset=5 xadvance=117 page=0 chnl=0 letter="地"
+char id=20027 x=117 y=0 width=114 height=111 xoffset=0 yoffset=6 xadvance=116 page=0 chnl=0 letter="主"
+char id=26126 x=230 y=112 width=108 height=111 xoffset=0 yoffset=9 xadvance=110 page=0 chnl=0 letter="明"
+char id=29260 x=0 y=232 width=115 height=115 xoffset=0 yoffset=5 xadvance=117 page=0 chnl=0 letter="牌"
+char id=21152 x=117 y=112 width=112 height=114 xoffset=0 yoffset=5 xadvance=114 page=0 chnl=0 letter="加"
+char id=20493 x=0 y=116 width=116 height=115 xoffset=0 yoffset=5 xadvance=118 page=0 chnl=0 letter="倍"
+char id=88 x=232 y=224 width=78 height=92 xoffset=0 yoffset=18 xadvance=80 page=0 chnl=0 letter="X"
+char id=49 x=339 y=95 width=40 height=93 xoffset=0 yoffset=17 xadvance=42 page=0 chnl=0 letter="1"
+char id=50 x=311 y=224 width=61 height=90 xoffset=0 yoffset=18 xadvance=63 page=0 chnl=0 letter="2"
+char id=51 x=298 y=0 width=63 height=94 xoffset=0 yoffset=17 xadvance=65 page=0 chnl=0 letter="3"
+char id=53 x=232 y=0 width=65 height=91 xoffset=0 yoffset=20 xadvance=67 page=0 chnl=0 letter="5"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=0 letter="	"
+
+kernings count=0

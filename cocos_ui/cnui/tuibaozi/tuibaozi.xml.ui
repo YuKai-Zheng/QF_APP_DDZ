@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\tuibaozi</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\tuibaozi\Resources</Resources>
+  <Name>tuibaozi</Name>
+  <JsonFileName>tuibaozi.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\tuibaozi\Json</JsonFolder>
+  <JsonList>
+    <string>tuibaozi_1.json</string>
+    <string>tuibaozi_ludan.json</string>
+    <string>tuibaozi_zuozhuang.json</string>
+    <string>tuibaozi_tishi.json</string>
+    <string>tuibaozi__home.json</string>
+    <string>tuibaozi_7.json</string>
+    <string>tuibaozi_help.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\tuibaozi\tuibaozi.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>tuibaozi_ludan.json</CurrentUIJson>
+</UIProject>

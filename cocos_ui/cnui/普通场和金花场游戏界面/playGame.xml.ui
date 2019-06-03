@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\普通场和金花场游戏界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\普通场和金花场游戏界面\Resources</Resources>
+  <Name>playGame</Name>
+  <JsonFileName>playGame.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\普通场和金花场游戏界面\Json</JsonFolder>
+  <JsonList>
+    <string>playGame_1.json</string>
+    <string>waiting_queue_tip.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\bullfight_client\cocos_ui\cnui\普通场和金花场游戏界面\playGame.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>waiting_queue_tip.json</CurrentUIJson>
+</UIProject>

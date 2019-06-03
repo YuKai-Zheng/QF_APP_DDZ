@@ -1,0 +1,20 @@
+info face="action_font3" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=72 base=26 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="action_font3.png"
+chars count=14
+char id=24320 x=0 y=0 width=65 height=65 xoffset=0 yoffset=8 xadvance=67 page=0 chnl=0 letter="开"
+char id=22987 x=0 y=66 width=65 height=66 xoffset=0 yoffset=6 xadvance=67 page=0 chnl=0 letter="始"
+char id=25250 x=66 y=0 width=65 height=67 xoffset=0 yoffset=5 xadvance=67 page=0 chnl=0 letter="抢"
+char id=21483 x=195 y=134 width=59 height=67 xoffset=0 yoffset=5 xadvance=61 page=0 chnl=0 letter="叫"
+char id=22320 x=132 y=0 width=63 height=64 xoffset=0 yoffset=7 xadvance=65 page=0 chnl=0 letter="地"
+char id=20027 x=131 y=68 width=64 height=65 xoffset=0 yoffset=5 xadvance=66 page=0 chnl=0 letter="主"
+char id=20986 x=196 y=0 width=58 height=64 xoffset=0 yoffset=7 xadvance=60 page=0 chnl=0 letter="出"
+char id=29260 x=66 y=68 width=64 height=69 xoffset=0 yoffset=4 xadvance=66 page=0 chnl=0 letter="牌"
+char id=20877 x=66 y=138 width=64 height=64 xoffset=0 yoffset=8 xadvance=66 page=0 chnl=0 letter="再"
+char id=26469 x=0 y=133 width=65 height=67 xoffset=0 yoffset=5 xadvance=67 page=0 chnl=0 letter="来"
+char id=19968 x=0 y=203 width=64 height=17 xoffset=0 yoffset=29 xadvance=66 page=0 chnl=0 letter="一"
+char id=23616 x=131 y=134 width=63 height=64 xoffset=0 yoffset=8 xadvance=65 page=0 chnl=0 letter="局"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=0 letter="	"
+
+kernings count=0

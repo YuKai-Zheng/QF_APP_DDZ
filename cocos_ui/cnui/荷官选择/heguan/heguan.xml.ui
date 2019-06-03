@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\荷官选择\heguan</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\荷官选择\heguan\Resources</Resources>
+  <Name>gift</Name>
+  <JsonFileName>gift.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\荷官选择\heguan\Json</JsonFolder>
+  <JsonList>
+    <string>heguan_change.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\荷官选择\heguan\heguan.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

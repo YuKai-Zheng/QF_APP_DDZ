@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\需求\首充\chaozhipay</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\需求\首充\chaozhipay\Resources</Resources>
+  <Name>chaozhipay</Name>
+  <JsonFileName>chaozhipay.json</JsonFileName>
+  <JsonFolder>D:\需求\首充\chaozhipay\Json</JsonFolder>
+  <JsonList>
+    <string>chaozhipay.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1084</Height>
+  </CanvasSize>
+  <filePath>D:\需求\首充\chaozhipay\chaozhipay.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>ChaoZhipay/fu_dai.png</string>
+    <string>ChaoZhipay/jinbi.png</string>
+    <string>global/global_dialog_close.png</string>
+    <string>ChaoZhipay/btn_ling_qu.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>chaozhipay.json</CurrentUIJson>
+</UIProject>

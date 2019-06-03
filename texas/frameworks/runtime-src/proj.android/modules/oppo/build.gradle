@@ -1,0 +1,45 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    
+    //微信sdk
+    // compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+
+    //阿里云推送
+    // compile fileTree(include: ['*.jar'], dir: 'modules/fusion/libs')
+    compile (name:'alicloud-android-push-3.1.4', ext: 'aar')
+    compile (name:'alicloud-android-third-push-3.0.5', ext: 'aar')
+
+    //阿里百川
+    compile(name:'alisdk-feedback-2.5.0.1', ext:'aar')
+    compile(name:'securityguardaar3-5.1.81', ext:'aar')
+
+}

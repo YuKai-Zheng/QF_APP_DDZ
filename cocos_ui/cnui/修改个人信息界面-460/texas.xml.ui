@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\修改个人信息界面-460</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\修改个人信息界面-460\Resources</Resources>
+  <Name>texas</Name>
+  <JsonFileName>texas.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\修改个人信息界面-460\Json</JsonFolder>
+  <JsonList>
+    <string>change_userinfo.json</string>
+    <string>myHeadBox.json</string>
+    <string>headBoxItem.json</string>
+    <string>userHead.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>180</Width>
+    <Height>180</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\修改个人信息界面-460\texas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>userinfo/gameinfo/bg.png</string>
+    <string>change_userinfo/img_sex_0.png</string>
+    <string>userinfo/gameinfo/level_bg.png</string>
+    <string>userinfo/gameinfo/jinbi.png</string>
+    <string>change_userinfo/is_real_name.png</string>
+    <string>global/kf_icon.png</string>
+    <string>userinfo/gameinfo/head_edit.png</string>
+    <string>global/bnt_number_bg.png</string>
+    <string>global/closebtn.png</string>
+    <string>userinfo/gameinfo/highLevel.png</string>
+    <string>userinfo/gameinfo/winMoney.png</string>
+    <string>userinfo/gameinfo/muls_max.png</string>
+    <string>userinfo/gameinfo/springTimes.png</string>
+    <string>userinfo/gameinfo/bombsTimes.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>change_userinfo.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+   	android:layout_height="wrap_content" 
+   	
+   	>
+        
+    
+
+    
+    <ImageView
+        android:id="@+id/pay_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pay_bg" 
+        android:visibility="visible"/>
+    
+    <LinearLayout 
+        android:id="@+id/pay_main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_alignLeft="@id/pay_bg"
+        android:layout_alignRight="@id/pay_bg"
+        android:layout_centerInParent="true"
+        
+        >
+        
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pay_title"
+            android:layout_marginTop="2dp"/>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            >
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+             	<TextView 
+                android:id="@+id/pay_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30000"
+                android:textColor="#ffffff00"
+                android:textSize="16sp"
+                android:layout_marginLeft="20dp"
+                />
+             	  <TextView 
+             	      android:layout_width="wrap_content"
+             	      android:layout_height="wrap_content"
+             	      android:text="เหรียญทอง"
+             	      android:textSize="16sp"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                >
+             	 <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="฿"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="28dp"/>
+                <TextView 
+                    android:id="@+id/pay_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    android:textColor="#ffffff00"
+                    android:textSize="16sp"
+                    />
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button 
+                        android:id="@+id/pay_btn_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:text="google play"
+                        android:background="@drawable/pay_btn_click"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp"/>
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button 
+                        android:id="@+id/pay_btn_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:text="SMS จ่าย"
+                        android:background="@drawable/pay_btn_click"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp"
+                        />
+                    
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button 
+                        android:id="@+id/pay_btn_third"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:text="google play"
+                        android:background="@drawable/pay_btn_click"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp"/>
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button 
+                        android:id="@+id/pay_btn_fourth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:text="SMS จ่าย"
+                        android:background="@drawable/pay_btn_click"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp"/>
+                    
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pay_common"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:layout_alignTop="@id/pay_bg"
+        android:layout_alignRight="@id/pay_bg"
+        
+        >
+        
+    </LinearLayout>
+   
+    <Button
+        android:id="@+id/pay_cancel"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+       
+        android:layout_alignLeft="@id/pay_common"
+        android:background="@drawable/pay_cancel" 
+         android:layout_marginTop="52dp"
+        android:visibility="visible"/>
+   
+</RelativeLayout>

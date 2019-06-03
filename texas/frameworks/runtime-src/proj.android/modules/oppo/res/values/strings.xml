@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ttdz_name">天天德州</string>
+          <!--下面是支付 需要的 提示内容-->
+    <string name="pay_wimi_tip" formatted="false">您将支付%s元获得%s，是否确认购买?\n支付成功后会收到运行商短信提示，此信息不影响游戏的正常进行。如有问题请拨打客服电话：400-640-8016</string>
+    <string name="is_sure">确定</string>
+    <string name="canacle">取消</string>
+    <string name="bill_id_fail">生成订单失败</string>
+    <string name="sms_pay_fail">短信支付失败，正在为您转%s支付，请稍后...</string>
+    <string name="tao_bao_pay">支付宝</string>
+    <string name="yo_pay">Yo支付</string>
+    <string name="dx_pay">电信短信支付</string>
+    <string name="guopan_pay">果盘支付</string>
+    <string name="canacle_pay">您将取消本次支付</string>
+    <string name="sms_tip">您请求的支付我们已处理，稍后会有短信提醒</string>
+    <string name="pay_loading">loading...</string>
+     <string name="play_dim_fail">支付失败    </string>
+    <string name="pay_fail_promit3">购买失败,错误码(%d)</string>
+    <string name="pay_fail_promit2">您已取消了支付请求</string>
+    <string name="pay_fail_promit1">您的支付已受限制，请稍后进行操作!</string>
+    <string name="title_activity_third_push_notice">辅助推送弹窗</string>
+     <!-- <string name="play_succ">支付成功!</string> -->
+    
+    <!--支付end  -->
+</resources>

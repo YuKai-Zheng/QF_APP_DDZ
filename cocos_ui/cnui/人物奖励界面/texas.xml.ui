@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\人物奖励界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\人物奖励界面\Resources</Resources>
+  <Name>texas</Name>
+  <JsonFileName>texas.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\人物奖励界面\Json</JsonFolder>
+  <JsonList>
+    <string>focaTask.json</string>
+    <string>reward.json</string>
+    <string>task_finish.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\人物奖励界面\texas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>freegoldshortcut/free_bg.png</string>
+    <string>reward/fucaBanner.png</string>
+    <string>global/global_choose_left_bt_four.png</string>
+    <string>global/gocharge.png</string>
+    <string>Focas/kf_icon.png</string>
+    <string>global/titlebg.png</string>
+    <string>global/focaTitle.png</string>
+    <string>freegoldshortcut/mfjb_tc_01.png</string>
+    <string>reward/rewardCup.png</string>
+    <string>global/btn_style/btn_red.png</string>
+    <string>global/closebtn.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>focaTask.json</CurrentUIJson>
+</UIProject>

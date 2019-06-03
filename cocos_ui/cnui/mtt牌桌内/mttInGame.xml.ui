@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\mtt牌桌内</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\mtt牌桌内\Resources</Resources>
+  <Name>mttInGame</Name>
+  <JsonFileName>mttInGame.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\mtt牌桌内\Json</JsonFolder>
+  <JsonList>
+    <string>mtt_rebuy.json</string>
+    <string>mtt_countdown.json</string>
+    <string>mtt_tip_window.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\mtt牌桌内\mttInGame.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

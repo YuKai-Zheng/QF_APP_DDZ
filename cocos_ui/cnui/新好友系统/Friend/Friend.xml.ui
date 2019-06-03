@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\新好友系统\Friend</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\新好友系统\Friend\Resources</Resources>
+  <Name>Friend</Name>
+  <JsonFileName>Friend.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\新好友系统\Friend\Json</JsonFolder>
+  <JsonList>
+    <string>friend.json</string>
+    <string>friend_addFriend.json</string>
+    <string>friend_createRoom.json</string>
+    <string>friend_delete.json</string>
+    <string>friend_invite.json</string>
+    <string>friend_recv_invite.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\bullfight_client\cocos_ui\cnui\新好友系统\Friend\Friend.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>friend_recv_invite.json</CurrentUIJson>
+</UIProject>

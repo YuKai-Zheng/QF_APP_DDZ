@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\分享界面\Share</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\分享界面\Share\Resources</Resources>
+  <Name>Share</Name>
+  <JsonFileName>Share.json</JsonFileName>
+  <JsonFolder>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\分享界面\Share\Json</JsonFolder>
+  <JsonList>
+    <string>share_winner.json</string>
+    <string>share_exchange.json</string>
+    <string>share_special.json</string>
+    <string>share_rank.json</string>
+    <string>share_game_result.json</string>
+    <string>share_match_exchange_result.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\分享界面\Share\Share.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>share/invite_game_result.png</string>
+    <string>share/qcode_bg.png</string>
+    <string>matchingHall/levelTexture/levelbg1.png</string>
+    <string>matchingHall/levelTexture/leveltitlebg1.png</string>
+    <string>matchingHall/levelTexture/levelleft1.png</string>
+    <string>matchingHall/levelTexture/levelright1.png</string>
+    <string>share/share_head_bg.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>share_game_result.json</CurrentUIJson>
+</UIProject>

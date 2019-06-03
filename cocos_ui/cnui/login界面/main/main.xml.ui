@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\workflow\ddz_app_client\cocos_ui\cnui\login界面\main</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\workflow\ddz_app_client\cocos_ui\cnui\login界面\main\Resources</Resources>
+  <Name>main</Name>
+  <JsonFileName>main.json</JsonFileName>
+  <JsonFolder>F:\workflow\ddz_app_client\cocos_ui\cnui\login界面\main\Json</JsonFolder>
+  <JsonList>
+    <string>loginLayout.json</string>
+    <string>mtt_loadding.json</string>
+    <string>versionUpdate.json</string>
+    <string>loading.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\workflow\ddz_app_client\cocos_ui\cnui\login界面\main\main.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/bg_login2.png</string>
+    <string>global/mv_loding_0007_06.png</string>
+    <string>main/logo.png</string>
+    <string>global/tree.png</string>
+    <string>main/main_beauty.png</string>
+    <string>pc_login/blur_bg.png</string>
+    <string>global/health_advice.png</string>
+    <string>global/mtt_loadding/img_mtt_loadding_bg.jpg</string>
+    <string>global/mtt_loadding/img_mtt_loadding_beauty.png</string>
+    <string>global/mtt_loadding/img_mtt_loadding_lbl_bg.png</string>
+    <string>global/mtt_loadding/img_mtt_meger_desk.png</string>
+    <string>global/normaldibg.png</string>
+    <string>global/normaldi.png</string>
+    <string>pc_login/version_update.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>pc_login/update_exit.png</string>
+    <string>global/btn_style/btn_red.png</string>
+    <string>pc_login/startUpdate.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>loginLayout.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\公共弹窗提示-200之后从这里修改</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\公共弹窗提示-200之后从这里修改\Resources</Resources>
+  <Name>CommonPopupWindow</Name>
+  <JsonFileName>CommonPopupWindow.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\公共弹窗提示-200之后从这里修改\Json</JsonFolder>
+  <JsonList>
+    <string>common_tip_window.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\公共弹窗提示-200之后从这里修改\CommonPopupWindow.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/normalbg1.png</string>
+    <string>global/titlebg.png</string>
+    <string>global/alert_title.png</string>
+    <string>global/normaldi.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>global/btn_normal_351x113_n01.png</string>
+    <string>global/btn_style/btn_red.png</string>
+    <string>global/btn_normal_351x113_y01.png</string>
+    <string>global/closebtn.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>common_tip_window.json</CurrentUIJson>
+</UIProject>

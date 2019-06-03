@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\source\DDZAPP\cocos_ui\cnui\比赛一级界面\matchingHallView</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\source\DDZAPP\cocos_ui\cnui\比赛一级界面\matchingHallView\Resources</Resources>
+  <Name>matchingHallView</Name>
+  <JsonFileName>matchingHallView.json</JsonFileName>
+  <JsonFolder>E:\work\source\DDZAPP\cocos_ui\cnui\比赛一级界面\matchingHallView\Json</JsonFolder>
+  <JsonList>
+    <string>matchingDetail.json</string>
+    <string>matchingHallView_1.json</string>
+    <string>matchingLevelCard.json</string>
+    <string>matchingQuit.json</string>
+    <string>matchingRule.json</string>
+    <string>matchingRank.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\work\source\DDZAPP\cocos_ui\cnui\比赛一级界面\matchingHallView\matchingHallView.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>newMatchingHall/matching_bg.png</string>
+    <string>newMatchingHall/matching_up_bg.png</string>
+    <string>newMatchingHall/matching_btn_return.png</string>
+    <string>matchingHall/duihuan.png</string>
+    <string>hall/wealth_num_bg.png</string>
+    <string>hall/Front-hall_0019_14.png</string>
+    <string>hall/buy_mark.png</string>
+    <string>Focas/kf_icon.png</string>
+    <string>newMatchingHall/matching_title.png</string>
+    <string>matchingHall/levelbg.png</string>
+    <string>matchingHall/guang01.png</string>
+    <string>matchingHall/guang02.png</string>
+    <string>newMatchingHall/matching_btn_detail.png</string>
+    <string>newMatchingHall/matching_btn_bg.png</string>
+    <string>newMatchingHall/matching_btn_rule.png</string>
+    <string>newMatchingHall/matching_btn_rank.png</string>
+    <string>newMatchingHall/matching_btn_start.png</string>
+    <string>newMatchingHall/matching_area_bg.png</string>
+    <string>newMatchingHall/matching_s1.png</string>
+    <string>newMatchingHall/matching_frame_tip.png</string>
+    <string>newMatchingHall/matching_guide_frame.png</string>
+    <string>newMatchingHall/matching_guide_tips.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>matchingHallView_1.json</CurrentUIJson>
+</UIProject>

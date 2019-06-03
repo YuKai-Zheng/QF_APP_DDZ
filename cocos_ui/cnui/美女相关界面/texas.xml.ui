@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\美女相关界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\美女相关界面\Resources</Resources>
+  <Name>texas</Name>
+  <JsonFileName>texas.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\美女相关界面\Json</JsonFolder>
+  <JsonList>
+    <string>beauty.json</string>
+    <string>getpicture1.json</string>
+    <string>getpicture2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\美女相关界面\texas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>getpicture2.json</CurrentUIJson>
+</UIProject>

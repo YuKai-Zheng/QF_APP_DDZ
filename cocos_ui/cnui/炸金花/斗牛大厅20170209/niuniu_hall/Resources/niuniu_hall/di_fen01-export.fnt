@@ -1,0 +1,23 @@
+info face="di_fen01-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=100 base=26 scaleW=512 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="di_fen01-export.png"
+chars count=17
+char id=24213 x=0 y=261 width=81 height=88 xoffset=0 yoffset=15 xadvance=76 page=0 chnl=0 letter="底"
+char id=20998 x=0 y=0 width=84 height=88 xoffset=0 yoffset=15 xadvance=79 page=0 chnl=0 letter="分"
+char id=21315 x=0 y=89 width=82 height=87 xoffset=0 yoffset=16 xadvance=77 page=0 chnl=0 letter="千"
+char id=19975 x=0 y=177 width=81 height=83 xoffset=0 yoffset=19 xadvance=76 page=0 chnl=0 letter="万"
+char id=65306 x=0 y=448 width=32 height=56 xoffset=0 yoffset=39 xadvance=27 page=0 chnl=0 letter="："
+char id=48 x=76 y=350 width=74 height=97 xoffset=0 yoffset=3 xadvance=69 page=0 chnl=0 letter="0"
+char id=49 x=227 y=98 width=50 height=97 xoffset=0 yoffset=3 xadvance=45 page=0 chnl=0 letter="1"
+char id=50 x=223 y=196 width=68 height=97 xoffset=0 yoffset=3 xadvance=63 page=0 chnl=0 letter="2"
+char id=51 x=158 y=0 width=69 height=97 xoffset=0 yoffset=3 xadvance=64 page=0 chnl=0 letter="3"
+char id=52 x=0 y=350 width=75 height=97 xoffset=0 yoffset=3 xadvance=70 page=0 chnl=0 letter="4"
+char id=53 x=151 y=274 width=71 height=97 xoffset=0 yoffset=3 xadvance=66 page=0 chnl=0 letter="5"
+char id=54 x=85 y=0 width=72 height=97 xoffset=0 yoffset=3 xadvance=67 page=0 chnl=0 letter="6"
+char id=55 x=82 y=177 width=73 height=96 xoffset=0 yoffset=3 xadvance=68 page=0 chnl=0 letter="7"
+char id=56 x=156 y=98 width=70 height=97 xoffset=0 yoffset=3 xadvance=65 page=0 chnl=0 letter="8"
+char id=57 x=151 y=372 width=71 height=97 xoffset=0 yoffset=3 xadvance=66 page=0 chnl=0 letter="9"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work\client\bullfight_client\cocos_ui\cnui\退出游戏弹框\main</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work\client\bullfight_client\cocos_ui\cnui\退出游戏弹框\main\Resources</Resources>
+  <Name>main</Name>
+  <JsonFileName>main.json</JsonFileName>
+  <JsonFolder>D:\work\client\bullfight_client\cocos_ui\cnui\退出游戏弹框\main\Json</JsonFolder>
+  <JsonList>
+    <string>exitDialog.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\work\client\bullfight_client\cocos_ui\cnui\退出游戏弹框\main\main.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>exitDialog.json</CurrentUIJson>
+</UIProject>

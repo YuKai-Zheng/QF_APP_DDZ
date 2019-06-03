@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qufan.texas"
+    android:versionCode="19"
+    android:versionName="1.0.14"
+    android:installLocation="preferExternal"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:replace="android:versionCode, android:versionName"
+    >
+
+    <uses-sdk android:minSdkVersion="11"/>
+    <!-- <uses-sdk tools:overrideLibrary="com.alibaba.sdk.android.push"/>
+    <uses-sdk tools:overrideLibrary="com.alibaba.sdk.thirdpush"/> -->
+    <!-- Required 自定义用来收发消息的相关权限 -->               
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <application 
+        android:name="com.qufan.texasx.GameApplication"
+        android:allowBackup="false"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        tools:replace="android:allowBackup"
+        >   
+
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data android:name="android.app.lib_name"
+            android:value="cocos2dlua" />
+
+        <meta-data
+            android:name="ALBAICHUAN_APPKEY"
+            android:value="${ALBAICHUAN_APPKEY_VALUE}" >
+        </meta-data>
+
+        <meta-data
+            android:name="SMS_VERIFY_APPKEY"
+            android:value="${SMS_VERIFY_APPKEY_VALUE}" />
+        <meta-data
+            android:name="SMS_VERIFY_APPSECRET"
+            android:value="${SMS_VERIFY_APPSECRET_VALUE}" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="${UMENG_APPKEY_VALUE}" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="${UMENG_MESSAGE_SECRET_VALUE}" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" /><!-- value="AUTO"__国外版本    value="CN"__国内版本 -->
+        <meta-data
+            android:name="LANG"
+            android:value="${LANG_VALUE}" />
+        <!-- 没有的话会崩溃 -->
+        <meta-data
+            android:name="BILL_TYPE"
+            android:value="{DX:3,YD:22,LT:22}" /><!-- value="支付的类型 BillType"-->
+
+        <!-- 微信 APPID、Secret -->
+        <meta-data 
+            android:name="wxAppId"  
+            android:value="${wxAppId}" >
+        </meta-data>
+        <!-- 现在AppSecret不在客户端配置，直接从服务器拉取：2016/04/19 -->
+
+        <!-- 适配全面屏 -->
+        <meta-data android:name="android.max_aspect"  android:value="2.4" />
+
+        <!-- QQ APPID、Secret -->
+        <meta-data 
+            android:name="qqAppId"  
+            android:value="${qqAppId}" >
+        </meta-data>
+        <meta-data 
+            android:name="qqAppSecret"  
+            android:value="${qqAppSecret}" >
+        </meta-data>
+        <!-- aliyun push -->
+        <meta-data 
+            android:name="com.alibaba.app.appkey" 
+            android:value="${ALIYUN_PUSH_APPID}"/>
+        <meta-data 
+            android:name="com.alibaba.app.appsecret" 
+            android:value="${ALIYUN_PUSH_APPSECRET}"/>
+
+        <!-- oppo nearme game sdk config -->
+        <meta-data android:name="debug_mode" android:value="true" />    <!-- 日志开关，发布时候设置为false -->
+		<meta-data android:name="is_offline_game" android:value="false" />  <!-- true:单机游戏   false:网游 -->
+		<meta-data android:name="app_key" android:value="${OPPO_APP_ID}" />  <!--appKey，游戏上线时请务必替换成游戏自身的appkey-->
+
+        <activity android:name="org.cocos2dx.lua.AppActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleTop"
+            android:configChanges="orientation|screenSize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.qufan.pay.sdk.PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog"
+            >
+        </activity>
+
+        <activity
+            android:name="com.qufan.pay.sdk.PayWebActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            >
+        </activity>
+
+        <!-- <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" 
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity> -->
+
+        <activity
+            android:name="${WX_ENTRY_ACTIVITY}"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" 
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+
+        <!-- ================  umeng start ========================= -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+        <!-- Fb Activitys Start -->
+        <activity android:name="com.umeng.fb.ConversationActivity" 
+            android:theme="@android:style/Theme.Light"/>
+        <activity android:name="com.umeng.fb.ContactActivity" />
+
+        <!-- Fb Activitys End -->
+        <activity 
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!--  umeng end-->
+
+
+        <!-- 支付宝end -->
+
+
+
+        <!-- 电信支付CTEStore start -->
+        <activity
+            android:name="com.qufan.pay.sdk.CTEStore.CTEPayActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name ="com.estore.ui.CTEStoreSDKActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 电信支付 end -->
+
+
+        <!-- 爱游戏start -->
+        <activity 
+            android:name="cn.egame.terminal.paysdk.EgamePayActivity" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" 
+            android:screenOrientation="landscape" 
+            android:configChanges="orientation|keyboard|keyboardHidden"> 
+        </activity>
+        <meta-data android:name="EGAME_CHANNEL" android:value="${EGAME_CHANNEL_VALUE}"  />
+
+
+        <activity android:name="cn.play.dserv.EmpActivity" android:exported="true" 
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <service android:name="cn.play.dserv.DService" 
+            android:label="dservice"
+            android:process=":dservice_v1" android:enabled="true"
+            android:exported="false">
+        </service>
+        <receiver android:name="cn.play.dserv.DsReceiver"
+            android:process=":dservice_v1">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.play.dservice" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>   
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>                  
+        </receiver>
+        <!-- 爱游戏end -->
+
+
+        <!-- 游戏基地start -->
+        <activity android:name="cn.cmgame.billing.api.GameOpenActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CHINAMOBILE_OMS_GAME" />
+                <category android:name="android.intent.category.CHINAMOBILE_GAMES" />
+            </intent-filter>
+        </activity>
+        <!-- 游戏基地end -->
+
+
+        <!-- QQ start -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity" 
+            android:noHistory="true" 
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1104538317" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize" 
+            />
+
+        <!-- QQ end -->
+
+        <!-- 手机绑定 start -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <!-- 手机绑定 end -->
+
+        <!-- 阿里云推送 start -->
+        <service
+            android:name="com.alibaba.sdk.android.push.MsgService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.push.NOTIFY_ACTION" />
+            </intent-filter>
+        </service>
+        <service android:name="com.alibaba.sdk.android.push.channel.CheckService"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.push.CHECK_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.taobao.accs.ChannelService"
+            android:exported="true" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.taobao.accs.ChannelService$KernelService"
+            android:exported="false"
+            android:process=":channel" >
+        </service>
+        <service android:name="com.taobao.accs.data.MsgDistributeService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.taobao.accs.EventReceiver"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.accs.ServiceReceiver"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="org.android.agoo.accs.AgooService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.alibaba.sdk.android.push.AliyunPushIntentService"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.taobao.agoo.AgooCommondReceiver"
+            android:process=":channel"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="${applicationId}.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.alibaba.sdk.android.push.channel.TaobaoRecvService"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService" />
+            </intent-filter>
+        </service>
+        <!-- V3.0.12及以上版本需配置 -->
+        <service
+            android:name="com.taobao.accs.internal.AccsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":channel"/>
+        <!-- V3.0.7及以上版本需配置 -->
+        <service android:name="com.alibaba.sdk.android.push.channel.KeepChannelService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":channel" />
+        <receiver android:name="com.alibaba.sdk.android.push.SystemEventReceiver"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <!-- V3.0.9及以上版本需配置 -->
+        <activity
+            android:name="com.alibaba.sdk.android.push.keeplive.PushExtActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation|keyboard"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:finishOnTaskLaunch="false"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:process=":channel"
+            >
+        </activity>
+        <activity android:name="com.qufan.push.ThirdPushPopupActivity"
+            android:label="@string/title_activity_third_push_notice"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            />
+        <!-- 消息接收监听器 （用户可自主扩展） -->
+        <receiver
+            android:name="com.qufan.push.MyMessageReceiver"
+            android:exported="false"> <!-- 为保证receiver安全，建议设置不可导出，如需对其他应用开放可通过android：permission进行限制 -->
+            <intent-filter>
+                <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.alibaba.sdk.android.push.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!-- 阿里云推送 end -->
+        <!--微信-->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <data android:scheme="${wxAppId}"/>
+            </intent-filter>
+        </activity>
+        <!--微信 end-->
+        <!-- oppo -->
+        <activity
+			android:name="com.nearme.game.sdk.component.proxy.ProxyActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:theme="@style/Theme_Dialog_Custom"
+			android:process=":gcsdk">
+		</activity>
+		<service
+			android:name="com.nearme.game.sdk.component.proxy.ProxyApiService"
+			android:process=":gcsdk"
+			android:priority="1000">
+		</service>
+        <receiver
+            android:name="com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver"
+            android:exported="true" 
+            android:process=":gcsdk">
+            <intent-filter>
+                <action android:name="com.oppo.usercenter.account_login" />
+                <action android:name="com.oppo.usercenter.account_logout" />
+                <action android:name="com.oppo.usercenter.modify_name" />
+            </intent-filter>
+        </receiver>
+        <!-- oppo end-->
+    </application>
+
+    <supports-screens android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+
+    <!-- Required  一些系统要求的权限，如访问网络等-->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>  
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- umeng start  -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- umeng end  -->
+
+    <!-- wostore start -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <!-- wostore end -->
+
+    <!-- sky start -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <!-- sky end -->
+    <!--weixin start -->
+    <!--weixin end -->  
+    <!--手机绑定 start --> 
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <!--手机绑定 end -->
+    <!--媒体音量 start-->   
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />   
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--媒体音量 end-->  
+
+    <!--爱游戏start-->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>  
+    <!--爱游戏end-->  
+
+    <!-- 游戏基地start -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 游戏基地end -->
+
+    <!-- 电池电量/网络信号检测 start -->
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <!-- 电池电量/网络信号检测 end -->
+
+    <!-- 阿里云推送相关权限 start-->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 阿里云推送相关权限 end-->
+
+    <!-- oppo start -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- oppo end -->
+</manifest> 

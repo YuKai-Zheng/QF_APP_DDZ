@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\Texas\ddz_app_client\cocos_ui\cnui\福卡\Focas</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\Texas\ddz_app_client\cocos_ui\cnui\福卡\Focas\Resources</Resources>
+  <Name>Focas</Name>
+  <JsonFileName>Focas.json</JsonFileName>
+  <JsonFolder>F:\Texas\ddz_app_client\cocos_ui\cnui\福卡\Focas\Json</JsonFolder>
+  <JsonList>
+    <string>Focas.json</string>
+    <string>Focas_2.json</string>
+    <string>Focas_3.json</string>
+    <string>Focas_4.json</string>
+    <string>Focas_5.json</string>
+    <string>Focas_6.json</string>
+    <string>Focas_7.json</string>
+    <string>Focas_8.json</string>
+    <string>GuaguaCardInfo.json</string>
+    <string>GuaguaCardSiteInfo.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\Texas\ddz_app_client\cocos_ui\cnui\福卡\Focas\Focas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>Focas_7.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\sng大厅界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\sng大厅界面\Resources</Resources>
+  <Name>lobbyLayout</Name>
+  <JsonFileName>lobbyLayout.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\sng大厅界面\Json</JsonFolder>
+  <JsonList>
+    <string>sng_apply_dialog.json</string>
+    <string>sng_lobbyLayout.json</string>
+    <string>sng_game_rule.json</string>
+    <string>sng_coin_not_enough.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\sng大厅界面\lobbyLayout.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>sng_game_rule.json</CurrentUIJson>
+</UIProject>

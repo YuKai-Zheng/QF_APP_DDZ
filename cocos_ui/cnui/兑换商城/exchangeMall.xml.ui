@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\兑换商城</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\兑换商城\Resources</Resources>
+  <Name>exchangeMall</Name>
+  <JsonFileName>exchangeMall.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\兑换商城\Json</JsonFolder>
+  <JsonList>
+    <string>exchangeMall.json</string>
+    <string>exchangeDetail.json</string>
+    <string>exchangeShortage.json</string>
+    <string>exchangePhoneNumber.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\兑换商城\exchangeMall.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>exchangeMall/exchangeMall_bg.png</string>
+    <string>exchangeMall/exchangeMall_btn_record.png</string>
+    <string>hall/package_hall.png</string>
+    <string>hall/set_hall.png</string>
+    <string>exchangeMall/exchangeMall_btn_1.png</string>
+    <string>exchangeMall/exchangeMall_item_bg.png</string>
+    <string>exchangeMall/exchangeMall_Lottery.png</string>
+    <string>exchangeMall/exchangeMall_loading.png</string>
+    <string>exchangeMall/exchangeMall_item_hot.png</string>
+    <string>exchangeMall/exchangeMall_offer_bubble.png</string>
+    <string>exchangeMall/focaTips.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>exchangeMall.json</CurrentUIJson>
+</UIProject>

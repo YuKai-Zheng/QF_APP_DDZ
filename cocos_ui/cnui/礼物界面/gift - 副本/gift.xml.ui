@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\礼物界面\gift - 副本</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\礼物界面\gift - 副本\Resources</Resources>
+  <Name>gift</Name>
+  <JsonFileName>gift.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\礼物界面\gift - 副本\Json</JsonFolder>
+  <JsonList>
+    <string>gift.json</string>
+    <string>gift_card_popup_tip.json</string>
+    <string>rebate.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\BULLFI~1\cocos_ui\cnui\礼物界面\GIFT-~1\GIFTXM~1.UI</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

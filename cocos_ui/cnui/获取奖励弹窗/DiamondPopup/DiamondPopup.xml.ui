@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\获取奖励弹窗\DiamondPopup</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\获取奖励弹窗\DiamondPopup\Resources</Resources>
+  <Name>DiamondPopup</Name>
+  <JsonFileName>DiamondPopup.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\获取奖励弹窗\DiamondPopup\Json</JsonFolder>
+  <JsonList>
+    <string>DiamondPopup.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\获取奖励弹窗\DiamondPopup\DiamondPopup.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>GUI/image.png</string>
+    <string>DiamondPopup/title_1.png</string>
+    <string>DiamondPopup/xing1.png</string>
+    <string>DiamondPopup/xing2.png</string>
+    <string>DiamondPopup/xing3.png</string>
+    <string>DiamondPopup/guang.png</string>
+    <string>global/btn_style/btn_red.png</string>
+    <string>global/btn_normal_351x113_y01.png</string>
+    <string>hall/nextrewardbg.png</string>
+    <string>matchingHall/focas.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>DiamondPopup/share_txt.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>DiamondPopup.json</CurrentUIJson>
+</UIProject>

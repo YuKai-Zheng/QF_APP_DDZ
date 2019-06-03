@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\免费金币领取快捷方式\FreeGoldShortCut</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\免费金币领取快捷方式\FreeGoldShortCut\Resources</Resources>
+  <Name>FreeGoldShortCut</Name>
+  <JsonFileName>FreeGoldShortCut.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\免费金币领取快捷方式\FreeGoldShortCut\Json</JsonFolder>
+  <JsonList>
+    <string>FreeGoldShortCut.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\免费金币领取快捷方式\FreeGoldShortCut\FreeGoldShortCut.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/closebtn.png</string>
+    <string>freegoldshortcut/mfjb_tc_13.png</string>
+    <string>freegoldshortcut/free_bg.png</string>
+    <string>freegoldshortcut/mfjb_tc_01.png</string>
+    <string>GUI/button.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>global/btn_style/btn_red.png</string>
+    <string>freegoldshortcut/mfjb_tc_15.png</string>
+    <string>freegoldshortcut/mfjb_tc_09.png</string>
+    <string>freegoldshortcut/mfjb_tc_05.png</string>
+    <string>global/btn_style/btn_gray.png</string>
+    <string>freegoldshortcut/mfjb_tc_16.png</string>
+    <string>freegoldshortcut/mfjb_tc_17.png</string>
+    <string>freegoldshortcut/mfjb_tc_06.png</string>
+    <string>freegoldshortcut/mfjb_tc_08.png</string>
+    <string>freegoldshortcut/mfjb_tc_07.png</string>
+    <string>freegoldshortcut/real_name.png</string>
+    <string>freegoldshortcut/weixin.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>FreeGoldShortCut.json</CurrentUIJson>
+</UIProject>

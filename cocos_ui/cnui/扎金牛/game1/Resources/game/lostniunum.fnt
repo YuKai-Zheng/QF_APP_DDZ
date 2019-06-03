@@ -1,0 +1,32 @@
+info face="lostniunum" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=80 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="lostniunum.png"
+chars count=26
+char id=19968 x=0 y=219 width=53 height=16 xoffset=1 yoffset=45 xadvance=54 page=0 chnl=0 letter="一"
+char id=20108 x=222 y=107 width=53 height=44 xoffset=1 yoffset=31 xadvance=54 page=0 chnl=0 letter="二"
+char id=19977 x=222 y=207 width=53 height=47 xoffset=1 yoffset=30 xadvance=54 page=0 chnl=0 letter="三"
+char id=22235 x=276 y=109 width=51 height=51 xoffset=2 yoffset=29 xadvance=52 page=0 chnl=0 letter="四"
+char id=20116 x=112 y=108 width=54 height=51 xoffset=0 yoffset=28 xadvance=55 page=0 chnl=0 letter="五"
+char id=20845 x=0 y=109 width=55 height=54 xoffset=0 yoffset=26 xadvance=56 page=0 chnl=0 letter="六"
+char id=19971 x=276 y=56 width=53 height=52 xoffset=1 yoffset=27 xadvance=54 page=0 chnl=0 letter="七"
+char id=20843 x=112 y=55 width=55 height=52 xoffset=0 yoffset=28 xadvance=56 page=0 chnl=0 letter="八"
+char id=20061 x=0 y=55 width=55 height=53 xoffset=0 yoffset=27 xadvance=56 page=0 chnl=0 letter="九"
+char id=23567 x=56 y=163 width=55 height=53 xoffset=0 yoffset=27 xadvance=56 page=0 chnl=0 letter="小"
+char id=29275 x=222 y=152 width=53 height=54 xoffset=1 yoffset=26 xadvance=54 page=0 chnl=0 letter="牛"
+char id=33457 x=56 y=109 width=55 height=53 xoffset=0 yoffset=27 xadvance=56 page=0 chnl=0 letter="花"
+char id=21516 x=276 y=161 width=51 height=52 xoffset=2 yoffset=28 xadvance=52 page=0 chnl=0 letter="同"
+char id=28856 x=112 y=0 width=55 height=54 xoffset=0 yoffset=26 xadvance=56 page=0 chnl=0 letter="炸"
+char id=33899 x=168 y=51 width=54 height=55 xoffset=0 yoffset=26 xadvance=55 page=0 chnl=0 letter="葫"
+char id=33446 x=112 y=160 width=54 height=54 xoffset=0 yoffset=26 xadvance=55 page=0 chnl=0 letter="芦"
+char id=23376 x=168 y=0 width=54 height=50 xoffset=0 yoffset=29 xadvance=55 page=0 chnl=0 letter="子"
+char id=26465 x=167 y=162 width=54 height=54 xoffset=0 yoffset=26 xadvance=55 page=0 chnl=0 letter="条"
+char id=27809 x=56 y=55 width=55 height=53 xoffset=0 yoffset=27 xadvance=56 page=0 chnl=0 letter="没"
+char id=24323 x=56 y=0 width=55 height=54 xoffset=0 yoffset=26 xadvance=56 page=0 chnl=0 letter="弃"
+char id=29260 x=0 y=164 width=55 height=54 xoffset=0 yoffset=26 xadvance=56 page=0 chnl=0 letter="牌"
+char id=27604 x=223 y=0 width=53 height=55 xoffset=1 yoffset=26 xadvance=54 page=0 chnl=0 letter="比"
+char id=22833 x=167 y=108 width=54 height=53 xoffset=0 yoffset=27 xadvance=55 page=0 chnl=0 letter="失"
+char id=36133 x=0 y=0 width=55 height=54 xoffset=0 yoffset=26 xadvance=56 page=0 chnl=0 letter="败"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

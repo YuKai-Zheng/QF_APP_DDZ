@@ -1,0 +1,31 @@
+info face="mfjb_tc_10-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=52 base=26 scaleW=262 scaleH=241 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="mfjb_tc_10-export.png"
+chars count=25
+char id=24050 x=211 y=48 width=49 height=44 xoffset=0 yoffset=6 xadvance=51 page=0 chnl=0 letter="已"
+char id=30830 x=211 y=0 width=50 height=47 xoffset=0 yoffset=5 xadvance=52 page=0 chnl=0 letter="确"
+char id=23450 x=0 y=94 width=52 height=47 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="定"
+char id=39046 x=53 y=145 width=52 height=47 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="领"
+char id=21462 x=106 y=145 width=52 height=46 xoffset=0 yoffset=6 xadvance=54 page=0 chnl=0 letter="取"
+char id=31614 x=53 y=193 width=52 height=45 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="签"
+char id=21040 x=210 y=194 width=50 height=46 xoffset=0 yoffset=5 xadvance=52 page=0 chnl=0 letter="到"
+char id=21435 x=106 y=97 width=52 height=47 xoffset=0 yoffset=4 xadvance=54 page=0 chnl=0 letter="去"
+char id=25277 x=107 y=0 width=51 height=47 xoffset=0 yoffset=4 xadvance=53 page=0 chnl=0 letter="抽"
+char id=22870 x=106 y=48 width=52 height=48 xoffset=0 yoffset=4 xadvance=54 page=0 chnl=0 letter="奖"
+char id=21169 x=159 y=97 width=51 height=48 xoffset=0 yoffset=4 xadvance=53 page=0 chnl=0 letter="励"
+char id=28857 x=159 y=146 width=51 height=47 xoffset=0 yoffset=4 xadvance=53 page=0 chnl=0 letter="点"
+char id=25105 x=106 y=192 width=52 height=48 xoffset=0 yoffset=4 xadvance=54 page=0 chnl=0 letter="我"
+char id=20998 x=54 y=0 width=52 height=47 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="分"
+char id=20139 x=0 y=189 width=52 height=46 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="享"
+char id=23436 x=159 y=49 width=51 height=47 xoffset=0 yoffset=5 xadvance=53 page=0 chnl=0 letter="完"
+char id=25104 x=53 y=96 width=52 height=48 xoffset=0 yoffset=4 xadvance=54 page=0 chnl=0 letter="成"
+char id=21442 x=53 y=48 width=52 height=47 xoffset=0 yoffset=5 xadvance=54 page=0 chnl=0 letter="参"
+char id=21152 x=159 y=0 width=51 height=48 xoffset=0 yoffset=4 xadvance=53 page=0 chnl=0 letter="加"
+char id=24320 x=0 y=142 width=52 height=46 xoffset=0 yoffset=6 xadvance=54 page=0 chnl=0 letter="开"
+char id=22987 x=0 y=0 width=53 height=47 xoffset=0 yoffset=5 xadvance=55 page=0 chnl=0 letter="始"
+char id=21305 x=159 y=194 width=50 height=44 xoffset=0 yoffset=6 xadvance=52 page=0 chnl=0 letter="匹"
+char id=37197 x=0 y=48 width=52 height=45 xoffset=0 yoffset=6 xadvance=54 page=0 chnl=0 letter="配"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter="	"
+
+kernings count=0

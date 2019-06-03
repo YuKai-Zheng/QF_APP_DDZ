@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\大转盘\TurnTable</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\大转盘\TurnTable\Resources</Resources>
+  <Name>TurnTable</Name>
+  <JsonFileName>TurnTable.json</JsonFileName>
+  <JsonFolder>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\大转盘\TurnTable\Json</JsonFolder>
+  <JsonList>
+    <string>TurnTable.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\work\sourceTree\ddz_app_client\cocos_ui\cnui\大转盘\TurnTable\TurnTable.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>TurnTable/zp__0001_05.png</string>
+    <string>TurnTable/zp__0002_04.png</string>
+    <string>TurnTable/zp_pan01.png</string>
+    <string>TurnTable/zp_light01.png</string>
+    <string>TurnTable/turntable_btn_close.png</string>
+    <string>TurnTable/zp__0005_01.png</string>
+    <string>TurnTable/zp__0000_06.png</string>
+    <string>TurnTable/turntable_btn_pointer_normal.png</string>
+    <string>TurnTable/turntable_btn_pointer_disable.png</string>
+    <string>TurnTable/zp__0005_08.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>TurnTable.json</CurrentUIJson>
+</UIProject>

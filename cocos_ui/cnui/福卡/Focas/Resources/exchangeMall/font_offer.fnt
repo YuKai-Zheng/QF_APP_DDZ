@@ -1,0 +1,21 @@
+info face="font_offer" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=38 base=26 scaleW=108 scaleH=116 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="font_offer.png"
+chars count=15
+char id=48 x=64 y=0 width=22 height=28 xoffset=0 yoffset=10 xadvance=23 page=0 chnl=0 letter="0"
+char id=49 x=87 y=0 width=12 height=28 xoffset=0 yoffset=10 xadvance=13 page=0 chnl=0 letter="1"
+char id=50 x=86 y=87 width=20 height=28 xoffset=0 yoffset=10 xadvance=21 page=0 chnl=0 letter="2"
+char id=51 x=64 y=87 width=21 height=28 xoffset=0 yoffset=10 xadvance=22 page=0 chnl=0 letter="3"
+char id=52 x=40 y=76 width=23 height=28 xoffset=0 yoffset=10 xadvance=24 page=0 chnl=0 letter="4"
+char id=53 x=64 y=58 width=21 height=28 xoffset=0 yoffset=10 xadvance=22 page=0 chnl=0 letter="5"
+char id=54 x=86 y=58 width=21 height=28 xoffset=0 yoffset=10 xadvance=22 page=0 chnl=0 letter="6"
+char id=55 x=41 y=29 width=22 height=28 xoffset=0 yoffset=10 xadvance=23 page=0 chnl=0 letter="7"
+char id=56 x=64 y=29 width=22 height=28 xoffset=0 yoffset=10 xadvance=23 page=0 chnl=0 letter="8"
+char id=57 x=41 y=0 width=22 height=28 xoffset=0 yoffset=10 xadvance=23 page=0 chnl=0 letter="9"
+char id=25240 x=0 y=0 width=40 height=37 xoffset=0 yoffset=5 xadvance=41 page=0 chnl=0 letter="折"
+char id=20248 x=0 y=38 width=40 height=37 xoffset=0 yoffset=5 xadvance=41 page=0 chnl=0 letter="优"
+char id=24800 x=0 y=76 width=39 height=35 xoffset=0 yoffset=6 xadvance=40 page=0 chnl=0 letter="惠"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=6 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=0 letter="	"
+
+kernings count=0

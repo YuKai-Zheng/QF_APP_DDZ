@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\斗牛\看牌抢庄\kanpai</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\斗牛\看牌抢庄\kanpai\Resources</Resources>
+  <Name>kanpai</Name>
+  <JsonFileName>kanpai.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\斗牛\看牌抢庄\kanpai\Json</JsonFolder>
+  <JsonList>
+    <string>game_douniu.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\斗牛\看牌抢庄\kanpai\kanpai.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>niuniu_common/niuniu_common.plist</string>
+    <string>game_douniu/game_douniu.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>game_douniu/paizhuo.jpg</string>
+    <string>niuniu_common/niuniu_common.plist</string>
+    <string>game_douniu/game_douniu.plist</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>game_douniu.json</CurrentUIJson>
+</UIProject>

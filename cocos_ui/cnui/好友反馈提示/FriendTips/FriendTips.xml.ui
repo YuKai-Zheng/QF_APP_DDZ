@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\好友反馈提示\FriendTips</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\好友反馈提示\FriendTips\Resources</Resources>
+  <Name>FriendTips</Name>
+  <JsonFileName>FriendTips.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\好友反馈提示\FriendTips\Json</JsonFolder>
+  <JsonList>
+    <string>FriendTips.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\bullfight_client\cocos_ui\cnui\好友反馈提示\FriendTips\FriendTips.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

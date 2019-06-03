@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\连胜界面\WinningStreak</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\连胜界面\WinningStreak\Resources</Resources>
+  <Name>WinningStreak</Name>
+  <JsonFileName>WinningStreak.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\连胜界面\WinningStreak\Json</JsonFolder>
+  <JsonList>
+    <string>WinningStreak.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\连胜界面\WinningStreak\WinningStreak.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

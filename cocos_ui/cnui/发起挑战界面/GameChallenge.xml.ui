@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work2\texas_cocos\cocos_ui\cnui\发起挑战界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work2\texas_cocos\cocos_ui\cnui\发起挑战界面\Resources</Resources>
+  <Name>GameChallenge</Name>
+  <JsonFileName>GameChallenge.json</JsonFileName>
+  <JsonFolder>D:\work2\texas_cocos\cocos_ui\cnui\发起挑战界面\Json</JsonFolder>
+  <JsonList>
+    <string>GameChallenge.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\work2\texas_cocos\cocos_ui\cnui\发起挑战界面\GameChallenge.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/global_dialog_bg.png</string>
+    <string>game/challenge_title.png</string>
+    <string>friend/friend_bar_4.png</string>
+    <string>friend/friend_btn_5.png</string>
+    <string>friend/friend_btn_8.png</string>
+    <string>friend/friend_txt_3.png</string>
+    <string>friend/friend_btn_1.png</string>
+    <string>friend/friend_txt_2.png</string>
+    <string>global/global_dialog_close.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>GameChallenge.json</CurrentUIJson>
+</UIProject>

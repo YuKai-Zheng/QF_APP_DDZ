@@ -1,0 +1,15 @@
+info face="G:\工作\A平台新项目\斗牛牌桌内切图\kanpaijiangzhuang\digital_03_01-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=60 base=26 scaleW=137 scaleH=104 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="G:\工作\A平台新项目\斗牛牌桌内切图\kanpaijiangzhuang\digital_03_01-export.png"
+chars count=9
+char id=20493 x=0 y=0 width=55 height=54 xoffset=0 yoffset=10 xadvance=61 page=0 chnl=0 letter="倍"
+char id=48 x=40 y=55 width=35 height=48 xoffset=0 yoffset=13 xadvance=41 page=0 chnl=0 letter="0"
+char id=49 x=110 y=48 width=26 height=47 xoffset=0 yoffset=13 xadvance=32 page=0 chnl=0 letter="1"
+char id=50 x=56 y=0 width=34 height=47 xoffset=0 yoffset=13 xadvance=40 page=0 chnl=0 letter="2"
+char id=51 x=76 y=48 width=33 height=48 xoffset=0 yoffset=13 xadvance=39 page=0 chnl=0 letter="3"
+char id=52 x=0 y=55 width=39 height=46 xoffset=0 yoffset=14 xadvance=45 page=0 chnl=0 letter="4"
+char id=53 x=91 y=0 width=32 height=47 xoffset=0 yoffset=14 xadvance=38 page=0 chnl=0 letter="5"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

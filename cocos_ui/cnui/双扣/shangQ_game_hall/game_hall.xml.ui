@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\双扣\shangQ_game_hall</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\双扣\shangQ_game_hall\Resources</Resources>
+  <Name>game_hall</Name>
+  <JsonFileName>game_hall.json</JsonFileName>
+  <JsonFolder>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\双扣\shangQ_game_hall\Json</JsonFolder>
+  <JsonList>
+    <string>gameHall.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\双扣\shangQ_game_hall\game_hall.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>game_hall/gameHall.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

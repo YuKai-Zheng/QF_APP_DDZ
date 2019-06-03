@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\推广相关界面\PopularizeUI</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\推广相关界面\PopularizeUI\Resources</Resources>
+  <Name>PopularizeUI</Name>
+  <JsonFileName>PopularizeUI.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\推广相关界面\PopularizeUI\Json</JsonFolder>
+  <JsonList>
+    <string>PopularizeHall.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\推广相关界面\PopularizeUI\PopularizeUI.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>popularize/popularize_bg.png</string>
+    <string>popularize/closebtn.png</string>
+    <string>global/normaldi.png</string>
+    <string>popularize/popularize_seperateLine.png</string>
+    <string>popularize/popularize_item_normal.png</string>
+    <string>popularize/popularize_itemSelected.png</string>
+    <string>popularize/popularize_titleItemImage_normal_1.png</string>
+    <string>popularize/popularize_titleItemImage_selected_1.png</string>
+    <string>popularize/popularize_introduce_bg.png</string>
+    <string>popularize/popularize_code_title.png</string>
+    <string>popularize/popularize_code_bg.png</string>
+    <string>popularize/popularize_code.jpg</string>
+    <string>popularize/popularize_instanceStart.png</string>
+    <string>popularize/goToPopularize.png</string>
+    <string>GUI/button.png</string>
+    <string>popularize/popularize_introduce_enter.png</string>
+    <string>popularize/popularize_back.png</string>
+    <string>popularize/popularize_shareBtn.png</string>
+    <string>popularize/popularize_share.png</string>
+    <string>popularize/bind_Wx_Btn.png</string>
+    <string>popularize/nextrewardbg.png</string>
+    <string>popularize/non_record.png</string>
+    <string>popularize/popularize_bandTitle.png</string>
+    <string>popularize/popularize_input.png</string>
+    <string>popularize/popularize_add.png</string>
+    <string>popularize/popularize_rule_numbg.png</string>
+    <string>popularize/bind_wx_bg.png</string>
+    <string>popularize/bind_wx_normal.png</string>
+    <string>popularize/bind_success.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>PopularizeHall.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sub.com.qufan.texas"
+    android:versionCode="14"
+    android:versionName="1.0.14"
+    android:installLocation="preferExternal"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+</manifest> 

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work\cnui_180\钻石获取骨骼动画\NewAnimation123_</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work\cnui_180\钻石获取骨骼动画\NewAnimation123_\Resources</Resources>
+  <Name>NewAnimation123</Name>
+  <JsonFileName>NewAnimation123.json</JsonFileName>
+  <JsonFolder>D:\work\cnui_180\钻石获取骨骼动画\NewAnimation123_\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>D:\work\cnui_180\钻石获取骨骼动画\NewAnimation123_\NewAnimation123.xml.animation</filePath>
+  <ProjectType>AnimationProject</ProjectType>
+  <ResRelativePath />
+  <ResourceFileList />
+  <bBatchImage>true</bBatchImage>
+</AnimationProject>

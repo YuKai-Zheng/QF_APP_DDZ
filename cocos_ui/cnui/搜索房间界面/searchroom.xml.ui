@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work\client\texas_cocos\cocos_ui\cnui\搜索房间界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work\client\texas_cocos\cocos_ui\cnui\搜索房间界面\Resources</Resources>
+  <Name>searchroom</Name>
+  <JsonFileName>searchroom.json</JsonFileName>
+  <JsonFolder>D:\work\client\texas_cocos\cocos_ui\cnui\搜索房间界面\Json</JsonFolder>
+  <JsonList>
+    <string>lobbySearchDesk.json</string>
+    <string>lobbySearchDesk2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\work\client\texas_cocos\cocos_ui\cnui\搜索房间界面\searchroom.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>lobbySearchDesk.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\快捷聊天\QuiklyChat</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\快捷聊天\QuiklyChat\Resources</Resources>
+  <Name>QuiklyChat</Name>
+  <JsonFileName>QuiklyChat.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\快捷聊天\QuiklyChat\Json</JsonFolder>
+  <JsonList>
+    <string>QuicklyChat.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\快捷聊天\QuiklyChat\QuiklyChat.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>game_chat/gameChat.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>quiklychat/kjbq_0002_10.png</string>
+    <string>quiklychat/kjbq_0005_08.png</string>
+    <string>game_chat/gameChat.plist</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>QuicklyChat.json</CurrentUIJson>
+</UIProject>

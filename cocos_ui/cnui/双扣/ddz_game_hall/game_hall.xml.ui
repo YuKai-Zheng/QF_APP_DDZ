@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall\Resources</Resources>
+  <Name>game_hall</Name>
+  <JsonFileName>game_hall.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall\Json</JsonFolder>
+  <JsonList>
+    <string>changci_item.json</string>
+    <string>changci_item_vertical.json</string>
+    <string>gameHall.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall\game_hall.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>ddz_hall/newDDZCoinGame.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>ddz_hall/newDDZCoinGame.plist</string>
+    <string>ddz_hall/game_hall_lock_bg.png</string>
+    <string>ddz_hall/game_hall_lock.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>changci_item.json</CurrentUIJson>
+</UIProject>

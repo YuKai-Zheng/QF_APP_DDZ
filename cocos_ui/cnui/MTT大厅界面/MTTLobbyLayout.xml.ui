@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\MTT大厅界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\MTT大厅界面\Resources</Resources>
+  <Name>lobbyLayout</Name>
+  <JsonFileName>lobbyLayout.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\MTT大厅界面\Json</JsonFolder>
+  <JsonList>
+    <string>MTTApplySuccessLayout.json</string>
+    <string>MTTLobbyLayout.json</string>
+    <string>MTTMatchDetailsLayout.json</string>
+    <string>MTTRuleLayout.json</string>
+    <string>MTTTipLayout.json</string>
+    <string>MTTFeeExplainLayout.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\MTT大厅界面\MTTLobbyLayout.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

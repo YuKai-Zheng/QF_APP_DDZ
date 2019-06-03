@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\商城界面-180版本改版</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\商城界面-180版本改版\Resources</Resources>
+  <Name>shop_of_best_design</Name>
+  <JsonFileName>shop_of_best_design.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\商城界面-180版本改版\Json</JsonFolder>
+  <JsonList>
+    <string>shop_buy_popup_tip.json</string>
+    <string>shop_exchange_phone.json</string>
+    <string>shop_good_detail.json</string>
+    <string>shop_of_best_design.json</string>
+    <string>shop_pay_method.json</string>
+    <string>shop_vip_detail.json</string>
+    <string>shop_tool_detail.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\商城界面-180版本改版\shop_of_best_design.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>shop_tool_detail.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\炸金花\幸运合集大厅\niuniu_hall</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\炸金花\幸运合集大厅\niuniu_hall\Resources</Resources>
+  <Name>niuniu_hall</Name>
+  <JsonFileName>niuniu_hall.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\炸金花\幸运合集大厅\niuniu_hall\Json</JsonFolder>
+  <JsonList>
+    <string>gameGather.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\bullfight_client\cocos_ui\cnui\炸金花\幸运合集大厅\niuniu_hall\niuniu_hall.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>zjh_hall/gameHall.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\bullfight_client\cocos_ui\cnui\美女相册\Gallery</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\bullfight_client\cocos_ui\cnui\美女相册\Gallery\Resources</Resources>
+  <Name>Gallery</Name>
+  <JsonFileName>Gallery.json</JsonFileName>
+  <JsonFolder>D:\bullfight_client\cocos_ui\cnui\美女相册\Gallery\Json</JsonFolder>
+  <JsonList>
+    <string>beauty_share.json</string>
+    <string>Gallery_1.json</string>
+    <string>photo_big_node.json</string>
+    <string>photo_node.json</string>
+    <string>gallery_pageview_layout.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\bullfight_client\cocos_ui\cnui\美女相册\Gallery\Gallery.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>beauty_share.json</CurrentUIJson>
+</UIProject>

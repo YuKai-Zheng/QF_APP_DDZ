@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\Texas\ddz_app_client\cocos_ui\cnui\新个人信息面板-460\斗地主个人信息</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\Texas\ddz_app_client\cocos_ui\cnui\新个人信息面板-460\斗地主个人信息\Resources</Resources>
+  <Name>texas</Name>
+  <JsonFileName>texas.json</JsonFileName>
+  <JsonFolder>F:\Texas\ddz_app_client\cocos_ui\cnui\新个人信息面板-460\斗地主个人信息\Json</JsonFolder>
+  <JsonList>
+    <string>userinfo.json</string>
+    <string>new_userinfo.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\Texas\ddz_app_client\cocos_ui\cnui\新个人信息面板-460\斗地主个人信息\texas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>new_userinfo.json</CurrentUIJson>
+</UIProject>

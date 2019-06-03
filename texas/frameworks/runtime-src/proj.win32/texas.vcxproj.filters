@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\runtime">
+      <UniqueIdentifier>{44c0d166-6d84-43b5-8be7-a440c1c0f1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ferry">
+      <UniqueIdentifier>{6f91cdc6-781b-42a6-8eb9-257fbf972f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\netkit">
+      <UniqueIdentifier>{f26e5e33-5045-4b0c-b232-135402eb6cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\script_ferry">
+      <UniqueIdentifier>{a740f7e5-77e4-4d85-97b4-7c84cf5dbc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\luapb">
+      <UniqueIdentifier>{b1a9fdb0-eba3-4f64-827c-025440d9181f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\qf">
+      <UniqueIdentifier>{4e6af960-d3c0-4dc3-88d4-fdcbbda0f6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\qf\crypto">
+      <UniqueIdentifier>{661e3bb2-6af4-4e83-85e0-c4937554149c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\qf\crypto\md5">
+      <UniqueIdentifier>{8a3c26b7-dc4e-4fd4-8d3c-d66d9934b3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lfs">
+      <UniqueIdentifier>{f6a218f7-ccad-4014-8ea9-843eb2bbfbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\qf\shaders">
+      <UniqueIdentifier>{eba045e5-f455-46f4-848c-236592d86fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\qf\actions">
+      <UniqueIdentifier>{ecdf6084-446a-416c-bbae-ff3ef1e7e503}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatorWindow.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\ConfigParser.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\ResData.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\Runtime.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\Protos.pb.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ferry\Constants.h">
+      <Filter>Classes\ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ferry\Delegate.h">
+      <Filter>Classes\ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ferry\Ferry.h">
+      <Filter>Classes\ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\netkit\Box.h">
+      <Filter>Classes\netkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\netkit\IBox.h">
+      <Filter>Classes\netkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\script_ferry\lua_ferry_auto.hpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\script_ferry\lua_ferry_manual.hpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\script_ferry\ScriptBox.h">
+      <Filter>Classes\script_ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\script_ferry\ScriptCallbackEntry.h">
+      <Filter>Classes\script_ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\script_ferry\ScriptFerry.h">
+      <Filter>Classes\script_ferry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\luapb\LuaPB.h">
+      <Filter>Classes\luapb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\luapb\ProtoImporter.h">
+      <Filter>Classes\luapb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\luapb\Singleton.h">
+      <Filter>Classes\luapb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\QNative.h">
+      <Filter>Classes\qf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\QUtil.h">
+      <Filter>Classes\qf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\qf_auto_bindings.hpp">
+      <Filter>Classes\qf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\qf_manual_bindings.hpp">
+      <Filter>Classes\qf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\crypto\md5\md5.h">
+      <Filter>Classes\qf\crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lfs\lfs.h">
+      <Filter>Classes\lfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\actions\MoveCircle.h">
+      <Filter>Classes\qf\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\ScreenCaptureUtil.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\ShaderBox.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\ShaderType.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\SpriteBlur.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\StackBlur.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\StackGrey.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\qf\shaders\StackHighlight.h">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ferry\BaseFerry.h">
+      <Filter>Classes\ferry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWindow.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime_win32.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConfigParser.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Landscape_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\PlayDisable_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\PlayEnable_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Portrait_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Runtime.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Shine_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Protos.pb.cc">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ferry\Ferry.cpp">
+      <Filter>Classes\ferry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\script_ferry\lua_ferry_auto.cpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\script_ferry\lua_ferry_manual.cpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\script_ferry\ScriptCallbackEntry.cpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\script_ferry\ScriptFerry.cpp">
+      <Filter>Classes\script_ferry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\luapb\LuaPB.cc">
+      <Filter>Classes\luapb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\luapb\ProtoImporter.cc">
+      <Filter>Classes\luapb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\QNative.cpp">
+      <Filter>Classes\qf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\QUtil.cpp">
+      <Filter>Classes\qf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\qf_auto_bindings.cpp">
+      <Filter>Classes\qf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\crypto\md5\md5.cpp">
+      <Filter>Classes\qf\crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lfs\lfs.cc">
+      <Filter>Classes\lfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\actions\MoveCircle.cpp">
+      <Filter>Classes\qf\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\ScreenCaptureUtil.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\ShaderBox.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\SpriteBlur.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\StackBlur.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\StackGrey.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\shaders\StackHighlight.cpp">
+      <Filter>Classes\qf\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\qf\qf_manual_bindings.cpp">
+      <Filter>Classes\qf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

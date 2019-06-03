@@ -1,0 +1,25 @@
+info face="tools_title" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=48 base=26 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="tools_title.png"
+chars count=19
+char id=36229 x=0 y=87 width=44 height=43 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="超"
+char id=32423 x=45 y=86 width=44 height=44 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="级"
+char id=21152 x=134 y=133 width=42 height=44 xoffset=0 yoffset=4 xadvance=43 page=0 chnl=0 letter="加"
+char id=20493 x=45 y=131 width=44 height=43 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="倍"
+char id=21345 x=134 y=90 width=42 height=42 xoffset=0 yoffset=5 xadvance=43 page=0 chnl=0 letter="卡"
+char id=20817 x=90 y=45 width=44 height=44 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="兑"
+char id=25442 x=90 y=0 width=44 height=44 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="换"
+char id=21048 x=90 y=180 width=43 height=44 xoffset=0 yoffset=4 xadvance=44 page=0 chnl=0 letter="券"
+char id=35760 x=0 y=0 width=44 height=42 xoffset=0 yoffset=5 xadvance=45 page=0 chnl=0 letter="记"
+char id=29260 x=45 y=175 width=44 height=44 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="牌"
+char id=22120 x=45 y=44 width=44 height=41 xoffset=0 yoffset=6 xadvance=45 page=0 chnl=0 letter="器"
+char id=20445 x=45 y=0 width=44 height=43 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="保"
+char id=26143 x=0 y=175 width=44 height=40 xoffset=0 yoffset=6 xadvance=45 page=0 chnl=0 letter="星"
+char id=31036 x=0 y=131 width=44 height=43 xoffset=0 yoffset=4 xadvance=45 page=0 chnl=0 letter="礼"
+char id=31119 x=90 y=90 width=43 height=44 xoffset=0 yoffset=4 xadvance=44 page=0 chnl=0 letter="福"
+char id=35805 x=0 y=43 width=44 height=43 xoffset=0 yoffset=5 xadvance=45 page=0 chnl=0 letter="话"
+char id=36153 x=90 y=135 width=43 height=44 xoffset=0 yoffset=4 xadvance=44 page=0 chnl=0 letter="费"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

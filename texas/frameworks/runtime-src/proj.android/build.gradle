@@ -1,0 +1,408 @@
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.regex.Pattern
+
+apply plugin: 'android'
+
+def getFormatTime(fmt) {
+    // def df = new SimpleDateFormat("yyyyMMddHHmm")
+    def df = new SimpleDateFormat(fmt)
+    df.setTimeZone(TimeZone.getDefault())
+    return df.format(new Date())
+}
+
+task soCompileRelease(type: Exec) {
+    commandLine "cocos", "compile", "-pandroid", "-mrelease", "-j4"
+}
+
+task soCompileDebug(type: Exec) {
+    commandLine "cocos", "compile", "-pandroid", "-mdebug", "-j4"
+}
+
+task gamePrepare {
+    doFirst {
+        delete "${buildDir}/game/"
+        // 确保每次gradle都会重新合并assets
+        delete "${buildDir}/intermediates/assets"
+    }
+
+    doLast {
+        exec {
+            commandLine = ["cocos","luacompile", "-s${rootDir}/src", "-d${buildDir}/game/assets/src"]
+            if (System.properties['os.name'].toLowerCase().contains('windows')) {
+                commandLine = ["cmd", "/c"] + commandLine
+                print(commandLine)
+            }
+        }
+
+        copy {
+            from "${rootDir}"
+            include "config.json"
+            // 因为多语言的关系，这里只copy proto文件
+            // include "res/*.proto"
+
+            into "${buildDir}/game/assets/"
+        }
+
+        new File("${buildDir}/game/assets/res/").mkdirs()
+        exec {
+            commandLine = ["${rootDir}/tools/proto_encode/proto_encode", "e", "${rootDir}/tools/xxtea_key/xxtea.key", "${rootDir}/res/texas_net.proto", "${buildDir}/game/assets/res/texas_net.proto"]
+
+            if (System.properties['os.name'].toLowerCase().contains('windows')) {
+                commandLine = ["cmd", "/c"] + commandLine
+                print(commandLine)
+            }
+        }
+    }
+}
+
+// 清空掉debug目录
+task cleanDebugAPK {
+    doLast {
+        delete "${projectDir}/apk/debug"
+    }
+}
+
+preBuild.dependsOn 'gamePrepare'
+preBuild.dependsOn 'cleanDebugAPK'
+
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    useLibrary "org.apache.http.legacy"
+
+    defaultConfig {
+        applicationId "com.boniu.game"
+        versionCode 307
+        versionName "1.0.307"
+        minSdkVersion 11
+        targetSdkVersion 19
+        manifestPlaceholders = [
+            UMENG_APPKEY_VALUE: "5b2b1220f29d98386b000013",
+            UMENG_MESSAGE_SECRET_VALUE: "ffb708c740df3634b42b3bef4790a4f5",
+            //JPUSH_APPKEY_VALUE: "18945f292f6a80a902ee373a",
+            SMS_VERIFY_APPKEY_VALUE: "",
+            SMS_VERIFY_APPSECRET_VALUE: ""
+        ]
+
+          // 原生
+        ndk {
+            abiFilters "armeabi", "x86"
+        }
+
+        ext.lang = 'cn'
+    }
+
+    sourceSets {
+        main {
+            // manifest.srcFile 'AndroidManifest.xml'
+            // java.srcDirs = ['src/main/java']
+            // resources.srcDirs = ['src/main/java']
+            // 否则会去到src/main/aidl目录找
+            aidl.srcDirs = ['src/main/java']
+            // renderscript.srcDirs = ['src/main/java']
+            // res.srcDirs = ['res']
+            assets.srcDirs = ["$buildDir/game/assets"]
+            // jniLibs.srcDirs = ["src/fusion/libs"]
+        }
+        release {
+            jniLibs.srcDirs = ['so_libs/release']
+        }
+        debug {
+            jniLibs.srcDirs = ['so_libs/debug']
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    //签名
+    signingConfigs {
+        release{
+            storeFile file("key/key")
+            storePassword "qfwlkj2013"
+            keyAlias "texas"
+            keyPassword "qfwlkj2013"
+        }
+    }
+
+    productFlavors {
+        normal {
+            applicationId "com.hyz.wyddz"
+            proguardFiles "src/fusion/proguard.cfg"
+            sourceSets["$name"].manifest.srcFile "src/fusion/AndroidManifest.xml"
+
+            sourceSets["$name"].java.srcDirs = ['src/fusion/java']
+
+            ext.channelName = 'CN_AD_APPWYDDZ'
+            ext.lang = "cn"
+            ext.repName = '我要斗地主'
+            versionCode 690
+            versionName "1.0.690"
+
+            // 原生
+            ndk {
+                abiFilters "armeabi", "x86"
+            }
+
+            manifestPlaceholders.put("EGAME_CHANNEL_VALUE", "80010082")
+            manifestPlaceholders.put("JPUSH_APPKEY_VALUE", "782bd90349c7fa542eca0daa")
+            manifestPlaceholders.put("SMS_VERIFY_APPKEY_VALUE", "127dde67fe184")
+            manifestPlaceholders.put("SMS_VERIFY_APPSECRET_VALUE", "215b25d7df5e9d26a76fcdddf4e9b5dd")
+            manifestPlaceholders.put("WX_ENTRY_ACTIVITY", "com.hyz.wyddz.wxapi.WXEntryActivity") //指定特定的微信回调地址否则微信登录会失败
+            manifestPlaceholders.put("ALBAICHUAN_APPKEY_VALUE", "23613747")
+            manifestPlaceholders.put("wxAppId", "wx4c39cf69dd12eddd")
+            manifestPlaceholders.put("qqAppId", "qq101453219")
+            manifestPlaceholders.put("qqAppSecret", "dxgyxP7gddiVuj02")
+            manifestPlaceholders.put("ALIYUN_PUSH_APPID", "25548308")
+            manifestPlaceholders.put("ALIYUN_PUSH_APPSECRET", "1a709e60031dcbe50d5ad5e3dc8e9480")
+        }
+        oppo {
+            applicationId "com.qfddz.match.nearme.gamecenter"
+            proguardFiles "src/oppo/proguard.cfg"
+            sourceSets["$name"].manifest.srcFile "src/oppo/AndroidManifest.xml"
+
+            sourceSets["$name"].java.srcDirs = ['src/oppo/java']
+
+            ext.channelName = 'CN_AD_OPPO1'
+            ext.lang = "cn"
+            ext.repName = '牌友趣凡斗地主'
+            versionCode 673
+            versionName "1.0.673"
+
+            // 原生
+            ndk {
+                abiFilters "armeabi", "x86"
+            }
+
+            manifestPlaceholders.put("EGAME_CHANNEL_VALUE", "80010082")
+            manifestPlaceholders.put("JPUSH_APPKEY_VALUE", "782bd90349c7fa542eca0daa")
+            manifestPlaceholders.put("SMS_VERIFY_APPKEY_VALUE", "127dde67fe184")
+            manifestPlaceholders.put("SMS_VERIFY_APPSECRET_VALUE", "215b25d7df5e9d26a76fcdddf4e9b5dd")
+            manifestPlaceholders.put("WX_ENTRY_ACTIVITY", "com.qfddz.match.nearme.gamecenter.wxapi.WXEntryActivity") //指定特定的微信回调地址否则微信登录会失败
+            manifestPlaceholders.put("ALBAICHUAN_APPKEY_VALUE", "23613747")
+            manifestPlaceholders.put("wxAppId", "wxe48a4e5f3bb5252e")
+            manifestPlaceholders.put("qqAppId", "qq101453219")
+            manifestPlaceholders.put("qqAppSecret", "dxgyxP7gddiVuj02")
+            manifestPlaceholders.put("ALIYUN_PUSH_APPID", "25670407")
+            manifestPlaceholders.put("ALIYUN_PUSH_APPSECRET", "51965f912ebc4605c671dd3733d0f6e1")
+            manifestPlaceholders.put("OPPO_APP_ID", "1072kqLA49b4gS8g80Wgk0okk")
+        }
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders.put("UMENG_CHANNEL_VALUE", ext.channelName)
+        flavor.manifestPlaceholders.put("LANG_VALUE", ext.lang)
+    }
+
+
+    buildTypes {
+        // 可以给debug固定签名，因为assets会删掉，所以每次都会重编
+        debug {
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+        }
+
+        //混淆编译和签名信息设置
+        release {
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+            // proguard
+            minifyEnabled true
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            // proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+// copy res资源
+// 因为不同渠道要copy的语言不一样，所以要在后面单独copy
+android.applicationVariants.all{ variant ->
+    def flavorName = variant.productFlavors[0].name
+    def lang = variant.productFlavors[0].lang
+    def channelName = variant.productFlavors[0].channelName
+    variant.mergeAssets.doLast {
+        copy {
+            from "${rootDir}/res/${lang}"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/res/${lang}"
+        }
+
+
+        copy {
+            from "${rootDir}/res/android_channel/${lang}/${channelName}"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/res/${lang}"
+        }
+
+        // main作为安卓通用的覆盖资源，来与ios区分
+        copy {
+            from "${projectDir}/src/main/game/res/${lang}"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/res/${lang}"
+        }
+
+        // 支持覆盖资源
+        copy {
+            from "${projectDir}/src/${flavorName}/game/res/${lang}"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/res/${lang}"
+        }
+    }
+    
+}
+
+// 如果是debug模式，使用lua源码，方便定位问题
+android.applicationVariants.all{ variant ->
+    def buildTypeName = variant.buildType.name
+
+    if (buildTypeName == "debug") {
+        variant.mergeAssets.doLast {
+            delete "${buildDir}/intermediates/assets/${variant.dirName}/src"
+            copy {
+                from "${rootDir}"
+                include "src/**"
+
+                into "${buildDir}/intermediates/assets/${variant.dirName}"
+            }
+        }
+    }
+}
+
+// 一定要放到最后一个对assets做操作的位置
+android.applicationVariants.all{ variant ->
+    def flavorName = variant.productFlavors[0].name
+    def channelName = variant.productFlavors[0].channelName
+    def buildTime = getFormatTime("yyyyMMdd-HHmm")
+    def buildTypeName = variant.buildType.name
+
+    variant.mergeAssets.doLast {
+        // 生成md5列表文件
+        exec {
+            commandLine "python", "${rootDir}/tools/hotupdate/make_md5.py", "-b${buildDir}/intermediates/assets/${variant.dirName}", "-ssrc", "-sres", "-sconfig.json", "-d${buildDir}/intermediates/assets/${variant.dirName}"
+
+        }
+
+        // 打包zip
+        exec {
+            commandLine "python", "${rootDir}/tools/hotupdate/make_zip.py", "-b${buildDir}/intermediates/assets/${variant.dirName}", "-ssrc", "-sres", "-sconfig.json", "-smd5.txt", "-d${projectDir}/update/", "-nupdate-${applicationId}-v${versionCode}-${flavorName}-${channelName}-${buildTypeName}-${buildTime}.zip"
+        }
+    }
+}
+
+// 动态修改lua中的应用名称
+// 放在src copy之后进行，因为会修改src代码
+android.applicationVariants.all{ variant ->
+    def flavorName = variant.productFlavors[0].name
+    def repName = variant.productFlavors[0].repName
+    def lang = variant.productFlavors[0].lang
+    def buildTypeName = variant.buildType.name
+    def srcName = "德州扑克之夜"
+
+    if (repName) {
+        if (buildTypeName == "debug") {
+            variant.mergeAssets.doLast {
+
+                def relativeLuaFilePath = "src/res/${lang}/GameTxt.lua"
+                def realLuaFilePath = "${buildDir}/intermediates/assets/${variant.dirName}/${relativeLuaFilePath}"
+
+                // 直接替换lua中的文字
+                def updatedContent = new File(realLuaFilePath).getText('UTF-8').replaceAll(srcName, repName)
+                new File(realLuaFilePath).write(updatedContent, 'UTF-8')
+            }
+        }
+        else {
+            variant.mergeAssets.doLast {
+
+                def tmpDir = "${buildDir}/game/tmp/"
+                def relativeLuaFilePath = "src/res/${lang}/GameTxt.lua"
+                delete (tmpDir)
+
+                copy {
+                    from "${rootDir}"
+                    include relativeLuaFilePath
+                    into tmpDir
+                }
+
+                def tmpLuaFilePath = "${tmpDir}/${relativeLuaFilePath}"
+                def updatedContent = new File(tmpLuaFilePath).getText('UTF-8').replaceAll(srcName, repName)
+                new File(tmpLuaFilePath).write(updatedContent, 'UTF-8')
+
+                // 要执行luacompile
+                exec {
+                    commandLine = ["cocos", "luacompile", "-s${tmpDir}", "-d${buildDir}/intermediates/assets/${variant.dirName}"]
+
+                    if (System.properties['os.name'].toLowerCase().contains('windows')) {
+                        commandLine = ["cmd", "/c"] + commandLine
+                    }
+                }
+                // delete (tmpDir)
+            }
+
+            resValue "string", "app_name", repName
+        }
+    }
+}
+
+android.applicationVariants.all { variant ->
+    def flavorName = variant.productFlavors[0].name
+    def channelName = variant.productFlavors[0].channelName
+    def buildTime = getFormatTime("yyyyMMdd-HHmm")
+    def buildTypeName = variant.buildType.name
+
+    def alignedSuffix = ""
+    if (!variant.buildType.zipAlignEnabled) {
+        alignedSuffix = "-unaligned"
+    }
+
+    if (buildTypeName == "release") {
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                // def fileName = "apk/${buildTypeName}/${buildTime}/${applicationId}-v${versionCode}-${flavorName}-${channelName}-${buildTypeName}-${buildTime}${alignedSuffix}.apk"
+                def fileName = "apk/${buildTypeName}/${buildTime}/landlord_${channelName}_v${versionCode}.apk"
+                output.outputFile = new File(projectDir, fileName)
+            }
+        }
+    }
+    else {
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName = "apk/${buildTypeName}/${applicationId}-${flavorName}-${buildTypeName}${alignedSuffix}.apk"
+                output.outputFile = new File(projectDir, fileName)
+            }
+        }
+    }
+}
+
+
+
+repositories {
+    flatDir {
+        dirs 'modules/fusion/libs'
+        // dirs 'modules/oppo/libs'
+    }
+}
+
+dependencies {
+    // 防止误放入jar
+    // compile fileTree(dir: 'libs', include: '*')
+
+    // 友盟
+    compile project(':frameworks:runtime-src:proj.android:modules:umeng')
+
+
+    //微信sdk
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+
+    normalCompile project(':frameworks:runtime-src:proj.android:modules:fusion')
+    normalCompile project(':frameworks:runtime-src:proj.android:modules:normal')
+
+    //oppo
+    oppoCompile project(':frameworks:runtime-src:proj.android:modules:oppo')
+    oppoCompile project(':frameworks:runtime-src:proj.android:modules:normal')
+}
+

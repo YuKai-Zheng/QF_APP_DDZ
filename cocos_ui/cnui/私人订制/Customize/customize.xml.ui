@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work\client\bullfight_client\cocos_ui\cnui\私人订制\Customize</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work\client\bullfight_client\cocos_ui\cnui\私人订制\Customize\Resources</Resources>
+  <Name>searchroom</Name>
+  <JsonFileName>searchroom.json</JsonFileName>
+  <JsonFolder>D:\work\client\bullfight_client\cocos_ui\cnui\私人订制\Customize\Json</JsonFolder>
+  <JsonList>
+    <string>customize_create_room.json</string>
+    <string>customize_realtime_record.json</string>
+    <string>customize_result.json</string>
+    <string>customize_room_list.json</string>
+    <string>customize_lock_desk.json</string>
+    <string>customize_discrete_slider.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1192</Width>
+    <Height>168</Height>
+  </CanvasSize>
+  <filePath>D:\work\client\bullfight_client\cocos_ui\cnui\私人订制\Customize\customize.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>customize_room_list.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\Texas\ddz_app_client\cocos_ui\cnui\邀请界面\Invite</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\Texas\ddz_app_client\cocos_ui\cnui\邀请界面\Invite\Resources</Resources>
+  <Name>Invite</Name>
+  <JsonFileName>Invite.json</JsonFileName>
+  <JsonFolder>F:\Texas\ddz_app_client\cocos_ui\cnui\邀请界面\Invite\Json</JsonFolder>
+  <JsonList>
+    <string>invite.json</string>
+    <string>invite_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\Texas\ddz_app_client\cocos_ui\cnui\邀请界面\Invite\Invite.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>invite_2.json</CurrentUIJson>
+</UIProject>

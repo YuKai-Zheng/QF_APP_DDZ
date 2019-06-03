@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\qufan\bullfight_client\cocos_ui\cnui\升值积分\appreciate</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\qufan\bullfight_client\cocos_ui\cnui\升值积分\appreciate\Resources</Resources>
+  <Name>appreciate</Name>
+  <JsonFileName>appreciate.json</JsonFileName>
+  <JsonFolder>D:\qufan\bullfight_client\cocos_ui\cnui\升值积分\appreciate\Json</JsonFolder>
+  <JsonList>
+    <string>appreciate.json</string>
+    <string>appreciate_Tips.json</string>
+    <string>appreciate_NextLevelInfo.json</string>
+    <string>appreciate_exchange.json</string>
+    <string>appreciate_rule.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\qufan\bullfight_client\cocos_ui\cnui\升值积分\appreciate\appreciate.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>appreciate_Tips.json</CurrentUIJson>
+</UIProject>

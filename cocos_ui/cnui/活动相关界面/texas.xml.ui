@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\活动相关界面</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\活动相关界面\Resources</Resources>
+  <Name>texas</Name>
+  <JsonFileName>texas.json</JsonFileName>
+  <JsonFolder>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\活动相关界面\Json</JsonFolder>
+  <JsonList>
+    <string>active_notice.json</string>
+    <string>activity.json</string>
+    <string>day_event.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>F:\TexasWorkSpace\ddz_app_client\cocos_ui\cnui\活动相关界面\texas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>day_event.json</CurrentUIJson>
+</UIProject>

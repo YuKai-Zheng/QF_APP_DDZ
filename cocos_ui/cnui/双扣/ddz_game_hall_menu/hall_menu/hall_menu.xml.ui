@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall_menu\hall_menu</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall_menu\hall_menu\Resources</Resources>
+  <Name>hall_menu</Name>
+  <JsonFileName>hall_menu.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall_menu\hall_menu\Json</JsonFolder>
+  <JsonList>
+    <string>hall_menu.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1350</Width>
+    <Height>170</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\双扣\ddz_game_hall_menu\hall_menu\hall_menu.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

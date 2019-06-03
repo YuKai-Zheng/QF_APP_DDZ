@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\work\新项目\coco工程\每日登陆奖励 - 副本</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\work\新项目\coco工程\每日登陆奖励 - 副本\Resources</Resources>
+  <Name>每日登陆奖励</Name>
+  <JsonFileName>每日登陆奖励.json</JsonFileName>
+  <JsonFolder>D:\work\新项目\coco工程\每日登陆奖励 - 副本\Json</JsonFolder>
+  <JsonList>
+    <string>dailylogin.json</string>
+    <string>personal.json</string>
+    <string>reward.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\work\新项目\coco工程\每日登~2\每日登~1.UI</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>reward/_0012_bounced01.png</string>
+    <string>personal/_0022_03.png</string>
+    <string>personal/close.png</string>
+    <string>personal/_0009_16.png</string>
+    <string>personal/_0008_17.png</string>
+    <string>personal/_0004_21.png</string>
+    <string>reward/_0008_Gold.png</string>
+    <string>personal/_0002_23.png</string>
+    <string>personal/_0011_14.png</string>
+    <string>personal/_0010_15.png</string>
+    <string>personal/_0007_18.png</string>
+    <string>personal/_0006_19.png</string>
+    <string>personal/_0013_12.png</string>
+    <string>personal/_0012_13.png</string>
+    <string>personal/_0021_04.png</string>
+    <string>personal/_0020_05.png</string>
+    <string>personal/_0019_06.png</string>
+    <string>personal/4_s.png</string>
+    <string>personal/_0001_24.png</string>
+    <string>personal/_0023_03.png</string>
+    <string>personal/_0017_08.png</string>
+    <string>personal/IMG_8607.png</string>
+    <string>personal/_0024_01.png</string>
+    <string>personal/_0023_02.png</string>
+    <string>personal/_0023_002.png</string>
+    <string>personal/_0025_01.png</string>
+    <string>personal/_0018_07.png</string>
+    <string>personal/_00000_04.png</string>
+    <string>personal/_00003_01.png</string>
+    <string>personal/_00002_02.png</string>
+    <string>personal/_00001_03.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>personal.json</CurrentUIJson>
+</UIProject>

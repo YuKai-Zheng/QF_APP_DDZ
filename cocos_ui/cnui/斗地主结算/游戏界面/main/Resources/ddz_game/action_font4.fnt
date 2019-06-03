@@ -1,0 +1,18 @@
+info face="action_font4" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=72 base=26 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="action_font4.png"
+chars count=12
+char id=26126 x=67 y=0 width=60 height=65 xoffset=0 yoffset=14 xadvance=62 page=0 chnl=0 letter="明"
+char id=29260 x=66 y=69 width=64 height=69 xoffset=0 yoffset=10 xadvance=66 page=0 chnl=0 letter="牌"
+char id=24320 x=0 y=69 width=65 height=65 xoffset=0 yoffset=14 xadvance=67 page=0 chnl=0 letter="开"
+char id=22987 x=0 y=135 width=65 height=66 xoffset=0 yoffset=12 xadvance=67 page=0 chnl=0 letter="始"
+char id=25552 x=0 y=0 width=66 height=68 xoffset=0 yoffset=11 xadvance=68 page=0 chnl=0 letter="提"
+char id=31034 x=66 y=139 width=62 height=62 xoffset=0 yoffset=16 xadvance=64 page=0 chnl=0 letter="示"
+char id=88 x=0 y=202 width=45 height=53 xoffset=0 yoffset=19 xadvance=47 page=0 chnl=0 letter="X"
+char id=50 x=84 y=202 width=36 height=53 xoffset=0 yoffset=19 xadvance=38 page=0 chnl=0 letter="2"
+char id=51 x=121 y=202 width=36 height=53 xoffset=0 yoffset=19 xadvance=38 page=0 chnl=0 letter="3"
+char id=53 x=46 y=202 width=37 height=53 xoffset=0 yoffset=19 xadvance=39 page=0 chnl=0 letter="5"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=0 letter="	"
+
+kernings count=0

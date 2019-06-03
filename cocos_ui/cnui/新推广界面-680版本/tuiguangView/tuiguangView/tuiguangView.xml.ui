@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\source\DDZAPP\cocos_ui\cnui\新推广界面-680版本\tuiguangView\tuiguangView</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\source\DDZAPP\cocos_ui\cnui\新推广界面-680版本\tuiguangView\tuiguangView\Resources</Resources>
+  <Name>tuiguangView</Name>
+  <JsonFileName>tuiguangView.json</JsonFileName>
+  <JsonFolder>E:\work\source\DDZAPP\cocos_ui\cnui\新推广界面-680版本\tuiguangView\tuiguangView\Json</JsonFolder>
+  <JsonList>
+    <string>tuiguangView.json</string>
+    <string>tuiguangRuleView.json</string>
+    <string>tuiguangOfficalView.json</string>
+    <string>tuiguangFriendInfoView.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>E:\work\source\DDZAPP\cocos_ui\cnui\新推广界面-680版本\tuiguangView\tuiguangView\tuiguangView.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>tuiguangView/tuiguangView_img_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_title.png</string>
+    <string>gameTaskView/gameTask_btn_close.png</string>
+    <string>tuiguangView/tuiguangView_img_rule.png</string>
+    <string>tuiguangView/tuiguangView_btn_friend.png</string>
+    <string>tuiguangView/tuiguangView_img_redpack_bg.png</string>
+    <string>tuiguangView/tuiguangView_btn_invite.png</string>
+    <string>tuiguangView/tuiguangView_img_bottom.png</string>
+    <string>tuiguangView/tuiguangView_img_txt_tip.png</string>
+    <string>tuiguangView/tuiguangView_btn_withdraw.png</string>
+    <string>tuiguangView/tuiguangView_img_item_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_item_redpack.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>tuiguangView/tuiguangView_txt_go.png</string>
+    <string>tuiguangView/tuiguangView_img_finish.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_desc_bg.png</string>
+    <string>gameTaskView/gameTask_btn_close.png</string>
+    <string>tuiguangView/tuiguangView_img_rule_title.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_desc_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_offical_desc.png</string>
+    <string>tuiguangView/tuiguangView_img_offical_title.png</string>
+    <string>global/btn_style/btn_blue.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_bg.png</string>
+    <string>tuiguangView/tuiguangView_img_dialog_desc_bg.png</string>
+    <string>gameTaskView/gameTask_btn_close.png</string>
+    <string>tuiguangView/tuiguangView_img_friendinfo_title.png</string>
+    <string>tuiguangView/tuiguangView_img_friendinfo_item_title.png</string>
+    <string>tuiguangView/tuiguangView_img_friendinfo_line.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>tuiguangRuleView.json</CurrentUIJson>
+</UIProject>

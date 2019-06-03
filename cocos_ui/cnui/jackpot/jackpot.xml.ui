@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Project\bullfight_client\cocos_ui\cnui\jackpot</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>C:\Project\bullfight_client\cocos_ui\cnui\jackpot\Resources</Resources>
+  <Name>jackpot</Name>
+  <JsonFileName>jackpot.json</JsonFileName>
+  <JsonFolder>C:\Project\bullfight_client\cocos_ui\cnui\jackpot\Json</JsonFolder>
+  <JsonList>
+    <string>jackpot_rules.json</string>
+    <string>jackpot_record.json</string>
+    <string>jackpot_info_game.json</string>
+    <string>jackpot_info_brgame.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>C:\Project\bullfight_client\cocos_ui\cnui\jackpot\jackpot.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

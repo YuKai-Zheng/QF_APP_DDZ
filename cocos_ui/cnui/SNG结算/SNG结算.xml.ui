@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>G:\_qf-work\texas_cocos\cocos_ui\cnui\SNG结算</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>G:\_qf-work\texas_cocos\cocos_ui\cnui\SNG结算\Resources</Resources>
+  <Name>SNG结算</Name>
+  <JsonFileName>SNG结算.json</JsonFileName>
+  <JsonFolder>G:\_qf-work\texas_cocos\cocos_ui\cnui\SNG结算\Json</JsonFolder>
+  <JsonList>
+    <string>sng_exit.json</string>
+    <string>sng_rank.json</string>
+    <string>sng_settle_lose.json</string>
+    <string>sng_settle_win.json</string>
+    <string>sng_tip.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>G:\_qf-work\texas_cocos\cocos_ui\cnui\SNG结算\SNG结算.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>sng_tip.json</CurrentUIJson>
+</UIProject>

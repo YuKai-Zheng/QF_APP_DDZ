@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\ddz_app_client\cocos_ui\cnui\扎金牛\每日登陆奖励</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\ddz_app_client\cocos_ui\cnui\扎金牛\每日登陆奖励\Resources</Resources>
+  <Name>每日登陆奖励</Name>
+  <JsonFileName>每日登陆奖励.json</JsonFileName>
+  <JsonFolder>D:\ddz_app_client\cocos_ui\cnui\扎金牛\每日登陆奖励\Json</JsonFolder>
+  <JsonList>
+    <string>dailylogin.json</string>
+    <string>newUserDailyReward.json</string>
+    <string>personal.json</string>
+    <string>reward.json</string>
+    <string>firstRecharge_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1920</Width>
+    <Height>1080</Height>
+  </CanvasSize>
+  <filePath>D:\ddz_app_client\cocos_ui\cnui\扎金牛\每日登陆奖励\每日登陆奖励.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>global/normaldibg.png</string>
+    <string>global/normaldi.png</string>
+    <string>daily/_0000_003.png</string>
+    <string>daily/_0011_02.png</string>
+    <string>daily/_0002_001.png</string>
+    <string>daily/_0001_002.png</string>
+    <string>daily/00377tian.png</string>
+    <string>daily/_0001_003.png</string>
+    <string>daily/888.png</string>
+    <string>daily/_0005_07.png</string>
+    <string>daily/_0008_04.png</string>
+    <string>daily/_0006_06.png</string>
+    <string>daily/_0010_02.png</string>
+    <string>daily/_0010_03.png</string>
+    <string>daily/_0009_03.png</string>
+    <string>daily/haveget.png</string>
+    <string>global/closebtn.png</string>
+    <string>daily/daily_hero.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>dailylogin.json</CurrentUIJson>
+</UIProject>
